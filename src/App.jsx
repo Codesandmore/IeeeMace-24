@@ -1,14 +1,15 @@
 import "./App.css";
 import Chapters from "./Pages/Chapters/Chapters";
 import About from "./Pages/About/About";
+import Events from "./Pages/Events/events";
 
 function App() {
   return (
-    <>
-      <h1>IEEE Website 2024</h1>
-      <About/>
+    <section className="main">
+      <About />
       <Chapters />
-    </>
+      <Events />
+    </section>
   );
 }
 
