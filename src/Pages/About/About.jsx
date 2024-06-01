@@ -1,3 +1,4 @@
+import "./About.css";
 import about1 from "../../assets/about1.jpg";
 import about2 from "../../assets/about2.jpg";
 
