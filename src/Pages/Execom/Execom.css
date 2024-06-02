@@ -1,0 +1,110 @@
+
+.execom {
+    padding: 20px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.execom-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.execom-card-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.execom-card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.execom-card:hover {
+    transform: scale(1.05);
+}
+
+.role {
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translateY(-50%) rotate(-90deg);
+    background-color: rgba(255, 255, 255, 0.9); 
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    z-index: 2; 
+    border-radius: 80px;
+}
+
+.image-container {
+    width: 100%;
+    height: 100%;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.execom-card:hover .overlay {
+    height: 30%;
+}
+
+.text {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .execom-card {
+        width: 150px;
+        height: 225px;
+    }
+
+    .role {
+        left: -40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .execom-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .execom-card {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .role {
+        left: -50px;
+    }
+}
