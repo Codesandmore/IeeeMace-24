@@ -5,15 +5,15 @@ import './Execom.css';
 const Execom = () => {
     const members = [
         {
-            name: 'John Doe',
-            email: 'john@example.com',
-            role: 'President',
-            image: 'src/assets/execom/HANNA ELZA JOHN.jpg'
+            name: 'Hanna Elza John',
+            email: 'hanna@gmail.com',
+            role: 'Chair',
+            image: 'src/assets/execom/HANNA ELZA JOHN1.png'
         },
         {
-            name: 'Jane Smith',
-            email: 'jane@example.com',
-            role: 'Vice President',
+            name: 'Hanna Elza John',
+            email: 'hanna@gmail.com',
+            role: 'Chair',
             image: 'src/assets/execom/HANNA ELZA JOHN.jpg'
         },
        
