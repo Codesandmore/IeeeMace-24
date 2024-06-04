@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Execom.css';
 
@@ -104,7 +104,7 @@ const ExecomFull = () => {
             name: 'Hanna Elza John',
             email: 'hanna@gmail.com',
             role: 'Chair',
-            image: 'src/assets/execom/slida.png'
+            image: 'src/assets/execom/silda.png'
         },
         {
             name: 'Hanna Elza John',
@@ -198,6 +198,10 @@ const ExecomFull = () => {
         },
     ];
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+    
     const ExecomCard = ({ member }) => {
         return (
             <div className="execom-card-container">
