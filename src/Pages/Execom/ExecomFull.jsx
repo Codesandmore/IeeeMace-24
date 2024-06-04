@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Execom.css';
 
-const Execom = () => {
+const ExecomFull = () => {
     const members = [
         {
             name: 'Hanna Elza John',
@@ -89,15 +89,15 @@ const Execom = () => {
         <div className="execom">
             <h1 className="section-heading">Execom</h1>
             <div className="execom-cards">
-                {members.slice(0, 5).map((member, index) => (
+                {members.map((member, index) => (
                     <ExecomCard key={index} member={member} />
                 ))}
             </div>
-            <div className="see-more-container">
-                <Link to="/execom" className="see-more-button">See More</Link>
+            <div className="back-container">
+                <Link to="/" className="back-button">Back</Link>
             </div>
         </div>
     );
 }
 
-export default Execom;
+export default ExecomFull;
