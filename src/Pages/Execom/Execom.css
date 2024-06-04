@@ -11,7 +11,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 64px;
+    gap: 100px;
 }
 
 .execom-card-container {
@@ -65,8 +65,11 @@
 }
 
 .profile-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: 100%;
+    height: 180%;
     object-fit: cover;
 }
 
@@ -94,8 +97,8 @@
     left: 0;
     width: 100%;
     height: 100%;
-   /*  background: #848484; */ /* Dark background */
-    backdrop-filter: blur(20px); /* Background blur */
+   /*  background: #848484; */ 
+    backdrop-filter: blur(20px); 
     z-index: 0;
 }
 
@@ -105,7 +108,7 @@
     font-family: 'Open Sans';
     font-weight: bold;
     color: #FFFFFF;
-    z-index: 2; /* Place text above blurred background */
+    z-index: 2; 
 }
 
 /* @media (max-width: 768px) {
@@ -137,4 +140,38 @@
         transform: translateY(-50%) translateX(-50%) rotate(-90deg);
         width: 120px; 
     } */
+}
+
+.see-more-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.see-more-button,
+.back-button {
+    display: inline-block;
+    margin: 20px;
+    background-color: #0E33F5;
+    color: #000000;
+    font-size: 25px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: background-color 0.3s ease;
+}
+.see-more-button{
+    padding: 10px 25px;
+}
+.back-button{
+    padding: 10px 50px;
+}
+.see-more-button:hover,
+.back-button:hover {
+    background-color: #D9D9D9;
+}
+
+.back-container {
+    text-align: center;
+    margin-top: 20px;
 }
