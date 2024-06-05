@@ -7,194 +7,38 @@ const Execom = () => {
         {
             name: 'Hanna Elza John',
             email: 'hanna@gmail.com',
-            role: 'Chair',
+            role: 'Branch Counselor',
+            image: 'src/assets/execom/neethu.png'
+        },
+        {
+            name: 'Hanna Elza John',
+            email: 'hanna@gmail.com',
+            role: 'SB Chair',
             image: 'src/assets/execom/hanna.png'
         },
         {
             name: 'Hanna Elza John',
             email: 'hanna@gmail.com',
-            role: 'Chair',
+            role: 'SB Secretary',
             image: 'src/assets/execom/pranav.png'
         },
         {
             name: 'Hanna Elza John',
             email: 'hanna@gmail.com',
-            role: 'Chair',
+            role: 'SB Vice Chair',
             image: 'src/assets/execom/amrutha.png'
         },
         {
             name: 'Hanna Elza John',
             email: 'hanna@gmail.com',
-            role: 'Chair',
+            role: 'SB Treasurer',
             image: 'src/assets/execom/abhinav.png'
         },
         {
             name: 'Hanna Elza John',
             email: 'hanna@gmail.com',
-            role: 'Chair',
+            role: 'SB Joint Secretary',
             image: 'src/assets/execom/anamika.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/bifin.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/chacko.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/anand.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/dwarakesh.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/milan.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/kripa.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/hari.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/rohith.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/noyal.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/colin.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/ronal.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/silda.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/shraddha.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/mathew.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/neha.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/akhil.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/jes.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/amritha.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/ameena.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/anu.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/jyothika.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/oliviya.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/naveen.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/nandhana mj.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/nandana jolly.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/siyadh.png'
-        },
-        {
-            name: 'Hanna Elza John',
-            email: 'hanna@gmail.com',
-            role: 'Chair',
-            image: 'src/assets/execom/sian.png'
         },
     ];
 
@@ -221,7 +65,7 @@ const Execom = () => {
         <div className="execom">
             <h1 className="section-heading">Execom</h1>
             <div className="execom-cards">
-                {members.slice(0, 5).map((member, index) => (
+                {members.slice(0, 6).map((member, index) => (
                     <ExecomCard key={index} member={member} />
                 ))}
             </div>
