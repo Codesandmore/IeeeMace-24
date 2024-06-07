@@ -61,13 +61,13 @@ const ExecomFull = () => {
         {
             name: 'Milan George Mathew',
             email: 'milangeorgem@gmail.com',
-            role: 'Electronic Communications Coordinator',
+            role: 'ECC',
             image: 'src/assets/execom/milan.png'
         },
         {
             name: 'Anand P S',
             email: 'anandps8888@gmail.com',
-            role: 'Membership Development Coordinator',
+            role: 'MDC',
             image: 'src/assets/execom/anand.png'
         },
         {
@@ -101,21 +101,21 @@ const ExecomFull = () => {
             name: 'Computer Society',
             members: [
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Prof. Leya Elizabeth Sunny',
+                    email: 'leyaelizabeth@mace.ac.in',
+                    role: 'Advisor',
                     image: 'src/assets/execom/leya.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
+                    name: 'Colin Jimmy',
+                    email: 'colinjimmy2004@gmail.com',
                     role: 'Chair',
                     image: 'src/assets/execom/colin.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Ronal Shoey George',
+                    email: 'ronalshoey@gmail.com',
+                    role: 'Secretary',
                     image: 'src/assets/execom/ronal.png'
                 },
             ]
@@ -124,21 +124,21 @@ const ExecomFull = () => {
             name: 'Communications Society',
             members: [
                 {
-                    name: 'Hanna Elza John',
+                    name: 'Dr. Siddharth Shelly',
                     email: 'sidhushelly@mace.ac.in',
-                    role: 'Chair',
+                    role: 'Advisor',
                     image: 'src/assets/execom/siddharth.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
+                    name: 'Silda Sholly',
+                    email: 'sildasholly@ieee.org',
                     role: 'Chair',
                     image: 'src/assets/execom/silda.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Shraddha Sasikumar ',
+                    email: 'shraddha_sasikumar@yahoo.in',
+                    role: 'Secretary',
                     image: 'src/assets/execom/shraddha.png'
                 },
             ]
@@ -147,21 +147,21 @@ const ExecomFull = () => {
             name: 'Industry Applications Society',
             members: [
                 {
-                    name: 'Hanna Elza John',
+                    name: 'Dr. Bos Mathew Jos',
                     email: 'bosmathewjos@mace.ac.in',
-                    role: 'Chair',
+                    role: 'Advisor',
                     image: 'src/assets/execom/bos.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
+                    name: 'Amritha M',
+                    email: 'amrithamurali70@gmail.com',
                     role: 'Chair',
                     image: 'src/assets/execom/amritha.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Ameena R',
+                    email: 'ameenarapheeque@gmail.com',
+                    role: 'Secretary',
                     image: 'src/assets/execom/ameena.png'
                 },
             ]
@@ -170,21 +170,21 @@ const ExecomFull = () => {
             name: 'Power and Energy Society',
             members: [
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
-                    image: 'src/assets/execom/neema.png'
+                    name: 'Prof. Neethu Salim',
+                    email: 'neethusalim@mace.ac.in',
+                    role: 'Advisor',
+                    image: 'src/assets/execom/neethu.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
+                    name: 'Akhil Sebastian',
+                    email: 'sskzm5527@ieee.org',
                     role: 'Chair',
                     image: 'src/assets/execom/akhil.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Jes Gigo',
+                    email: 'jesgigo10@gmail.com',
+                    role: 'Secretary',
                     image: 'src/assets/execom/jes.png'
                 },
             ]
@@ -193,21 +193,21 @@ const ExecomFull = () => {
             name: 'Robotics and Automation Society',
             members: [
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Dr. Siddharth Shelly',
+                    email: 'sidhushelly@mace.ac.in',
+                    role: 'Advisor',
                     image: 'src/assets/execom/siddharth.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
+                    name: 'Mathew Vinu Benny',
+                    email: 'mathewvbennyin@ieee.org',
                     role: 'Chair',
                     image: 'src/assets/execom/mathew.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Neha Savy',
+                    email: 'nehasavy05@gmail.com',
+                    role: 'Secretary',
                     image: 'src/assets/execom/neha.png'
                 },
             ]
@@ -216,45 +216,22 @@ const ExecomFull = () => {
             name: 'IE/PELS Joint Chapter',
             members: [
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Dr. Bos Mathew Jos',
+                    email: 'bosmathewjos@mace.ac.in',
+                    role: 'Advisor',
                     image: 'src/assets/execom/bos.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
+                    name: 'Anu Anil',
+                    email: 'anu29anil@gmail.com',
                     role: 'Chair',
                     image: 'src/assets/execom/anu.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Jyothika Vinod',
+                    email: 'jyothikavinod03@gmail.com',
+                    role: 'Secretary',
                     image: 'src/assets/execom/jyothika.png'
-                },
-            ]
-        },
-        {
-            name: 'Signal Processing Society',
-            members: [
-                {
-                    name: 'Hanna Elza John',
-                    email: 'reenugeorge@mace.ac.in',
-                    role: 'Chair',
-                    image: 'src/assets/execom/reenu.png'
-                },
-                {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
-                    image: 'src/assets/execom/oliviya.png'
-                },
-                {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
-                    image: 'src/assets/execom/naveen.png'
                 },
             ]
         },
@@ -262,22 +239,45 @@ const ExecomFull = () => {
             name: 'Women in Engineering Affinity Group',
             members: [
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Prof. Neethu Salim',
+                    email: 'neethusalim@mace.ac.in',
+                    role: 'Advisor',
                     image: 'src/assets/execom/neethu.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
+                    name: 'Nandhana M J',
+                    email: 'nandhanamj07@gmail.com',
                     role: 'Chair',
                     image: 'src/assets/execom/nandhana mj.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Nandana Jolly',
+                    email: 'nandanajolly6@gmail.com',
+                    role: 'Secretary',
                     image: 'src/assets/execom/nandana jolly.png'
+                },
+            ]
+        },
+        {
+            name: 'Signal Processing Society',
+            members: [
+                {
+                    name: 'Dr. Reenu George',
+                    email: 'reenugeorge@mace.ac.in',
+                    role: 'Advisor',
+                    image: 'src/assets/execom/reenu.png'
+                },
+                {
+                    name: 'Oliviya Jain',
+                    email: 'oliviyajainp@gmail.com',
+                    role: 'Chair',
+                    image: 'src/assets/execom/oliviya.png'
+                },
+                {
+                    name: 'Naveen Prasad',
+                    email: 'naveenprasadofficial5@gmail.com',
+                    role: 'Secretary',
+                    image: 'src/assets/execom/naveen.png'
                 },
             ]
         },
@@ -285,27 +285,27 @@ const ExecomFull = () => {
             name: 'SIGHT Group',
             members: [
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
-                    image: 'src/assets/execom/neema.png'
+                    name: 'Prof. Neethu Salim',
+                    email: 'neethusalim@mace.ac.in',
+                    role: 'Advisor',
+                    image: 'src/assets/execom/neethu.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
+                    name: 'Siyadh M N',
+                    email: 'siyadhmn123@gmail.com',
                     role: 'Chair',
                     image: 'src/assets/execom/siyadh.png'
                 },
                 {
-                    name: 'Hanna Elza John',
-                    email: 'hanna@gmail.com',
-                    role: 'Chair',
+                    name: 'Sian Lee',
+                    email: 'b22ec057@mace.ac.in',
+                    role: 'Secretary',
                     image: 'src/assets/execom/sian.png'
                 },
             ]
         },
     ];
-
+    
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
