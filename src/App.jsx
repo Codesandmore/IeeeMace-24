@@ -5,6 +5,7 @@ import About from './Pages/About/About';
 import Events from './Pages/Events/events';
 import Execom from './Pages/Execom/Execom';
 import ExecomFull from './Pages/Execom/ExecomFull';
+import Gallery from './Pages/Gallery/Gallery';
 
 function App() {
   return (
@@ -14,9 +15,10 @@ function App() {
           <Route path="/" element={
             <>
               <About />
-              <Chapters />
               <Events />
               <Execom />
+              <Gallery />
+              <Chapters />
             </>
           } />
           <Route path="/execom" element={<ExecomFull />} />
