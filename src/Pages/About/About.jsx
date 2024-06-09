@@ -1,14 +1,14 @@
 import "./About.css";
-import about1 from "../../assets/about1.jpg";
-import about2 from "../../assets/about2.jpg";
+// import about1 from "images/about1.jpg";
+// import about2 from "images/about2.jpg";
 
 const About = () => {
   return (
-    <section className="my-16">
+    <section id="About" className="my-16">
       <h1 className="section-heading">About Us</h1>
       <div className="mt-10 grid gap-y-4 lg:grid-cols-3 lg:items-center lg:mt-0">
         <img
-          src={about1}
+          src="/images/about1.jpg"
           alt="img1"
           className="relative h-full rounded-[35px] shadow-[10px_1px_8px_0px_rgba(0,0,0,0.2)] sm:w-1/2 sm:mx-auto lg:w-auto lg:h-[19rem]"
         />
@@ -32,7 +32,7 @@ const About = () => {
 
       <div className="mt-20 grid gap-y-4 lg:grid-cols-3 lg:items-center lg:mt-0">
         <img
-          src={about2}
+          src="/images/about2.jpg"
           alt="img2"
           className="relative h-full rounded-[35px] shadow-[-10px_1px_8px_0px_rgba(0,0,0,0.2)] sm:w-1/2 sm:mx-auto lg:w-auto lg:h-[19rem] lg:order-last"
         />

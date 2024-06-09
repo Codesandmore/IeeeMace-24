@@ -104,7 +104,7 @@ export default function Chapters() {
   };
 
   return (
-    <section className="chapters">
+    <section id="Chapters" className="chapters">
       <h1 className="section-heading">Chapters</h1>
       <div className="chapter-cards-container">{renderChapterCards()}</div>
     </section>

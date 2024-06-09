@@ -1,0 +1,304 @@
+.hero{
+    width: 100dvw;
+    height: 100dvh;
+    background: url("/images/Hero/herobg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.hero .content{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+}
+.hero .heading{
+    padding: 0 8px;
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+.join-us{
+    border: 2px solid #FFA800;
+    border-radius: 6px;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.join-us-div{
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 3px 15px;
+    color: #FFA800;
+    background-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+.join-us:hover .join-us-div{
+    background-color: #FFA800;
+    color: white;
+}
+
+.bottom{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero .hero-card{
+    width: 100%;
+    height: 40dvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.hero .hero-cards {
+    width: 340px;
+    height: 220px;
+    perspective: 1000px;
+}
+
+.hero .hero-cards .card {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    border-radius: 15px;
+    }
+    
+.hero .hero-cards:hover .card {
+    transform: rotateY(180deg);
+    /* Rotate the card on hover */
+}
+
+.hero .hero-cards .card .front,
+.hero .hero-cards .card .back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.hero .hero-cards .card .front {
+    background: url("/images/Hero/hero-card-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    color: white;
+    font-size: 28px;
+}
+
+.hero .hero-cards .card .front p {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.hero .hero-cards .card .back {
+    transform: rotateY(180deg);
+    background: #FFC700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.hero .hero-cards .card .back p{
+    font-size: 16px;
+    text-align: justify;
+}
+.hero-cards-mob{
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 20px;
+    background: url("/images/Hero/hero-card-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-card-mob {
+    padding: 10px;
+    height: 50px;
+    overflow-y: hidden;
+    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.hero-card-mob:hover {
+    animation: expandHeight 0.8s linear forwards;
+    background-color: #ffc700;
+    color: black;
+}
+
+@keyframes expandHeight {
+    0%{
+        height: 50px;
+    }
+    /* 25%{
+        height: 75px;
+    } */
+    50%{
+        height: 100px;
+    }
+    /* 75%{
+        height: 125px;
+    } */
+    100% {
+        height: fit-content;
+    }
+}
+.hero-card-mob h4{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 22px;
+    font-weight: 600;
+    padding: 1px 0;
+}
+.hero-card-mob p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
+    .hero .heading, .join-us-div, .hero .hero-cards .card .front p{
+        font-size: 18px;
+    }
+    /* .hero .hero-cards{
+        width: 220px;
+        height: 175px;
+    }
+    .hero .hero-cards .card .front{
+        font-size: 22px;
+    }
+    .hero .hero-cards .card .back p{
+        font-size: 12px;
+    } */
+}
+@media screen and (max-width: 991px){
+    .hero .hero-card{
+        display: none;
+    }
+    .hero-cards-mob{
+        display: flex;
+    }
+}
+
+
+/* hero 2nd page */
+.hero-2{
+    width: 100dvw;
+    min-height: 100dvh;
+    background: #001D3E;
+    padding: 5% 10%;
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+.hero-2-heading{
+    color: white;
+}
+.hero-2-card1{
+    grid-area: vertical;
+    border: 5px solid #FFC700;
+    padding: 15px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    gap: 4px;
+}
+.hero-2-card1 .hero-2-img{
+    background: url("/images/Hero/hero2img1.png");
+    background-position: center;
+    background-size: cover;
+}
+.hero-2-card2{
+    grid-area: horizontal1;
+    border: 5px solid #FFC700;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 4px;
+}
+.hero-2-card2 .hero-2-img{
+    background: url("/images/Hero/hero2img2.png");
+    background-position: center;
+    background-size: cover;
+}
+.hero-2-card3{
+    grid-area: horizontal2;
+    border: 5px solid #FFC700;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 4px;
+}
+.hero-2-card3 .hero-2-img{
+    width: 100%;
+    height: 100%;
+    background: url("/images/Hero/hero2img3.png");
+    background-position: center;
+    background-size: cover;
+}
+.hero-2-cards{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+        'vertical horizontal1 horizontal1 horizontal1'
+        'vertical horizontal2 horizontal2 horizontal2';
+    gap: 15px;
+    text-align: left;
+}
+.hero-2-card-heading{
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+}
+.hero-2-card-para{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+@media screen and (max-width: 991px) {
+    .hero-2-card-heading {
+        font-size: 24px;
+    }
+    .hero-2-card-para {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .hero-2{
+        grid-template-rows: 8% 92%;
+        padding: 5%;
+    }
+    .hero-2-card1{
+        grid-template-columns: 30% 70%;
+        direction: rtl;
+    }
+    .hero-2-cards{
+        grid-template-areas:
+            'vertical vertical vertical'
+            'horizontal1 horizontal1 horizontal1'
+            'horizontal2 horizontal2 horizontal2';
+    }
+    .hero-2-card-heading{
+        font-size: 20px;
+    }
+}
