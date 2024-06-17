@@ -9,7 +9,8 @@ import Gallery from "./Pages/Gallery/Gallery";
 import Hero from "./Pages/Hero/Hero";
 import Navbar from "./Pages/Navbar/Navbar";
 import Hero2 from "./Pages/Hero/Hero2";
-
+import Contact from "./Pages/ContactUs/ContactUs";
+import Footer from "./Pages/Footer/Footer";
 function App() {
   return (
     <div style={{ position: "relative" }}>
@@ -28,6 +29,8 @@ function App() {
                   <Execom />
                   <Gallery />
                   <Chapters />
+                  <Contact/>
+                  <Footer/>
                 </>
               }
             />
