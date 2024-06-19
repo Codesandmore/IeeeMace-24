@@ -1,17 +1,14 @@
 import React from "react";
 import "./Chapters.css";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 export default function Chapters() {
   const chaptersData = [
     {
       chapterName: "Chapter Name",
-      chapterImage: "https://placehold.co/300x300",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
         "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100",
+      chapterLogo: "https://placehold.co/100x100/FFF/000000",
       chapterChair: "Chair",
       chapterSecretary: "Secratary",
       chapterSite: "www.chapter.com",
@@ -19,10 +16,10 @@ export default function Chapters() {
 
     {
       chapterName: "Chapter Name",
-      chapterImage: "https://placehold.co/300x300",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
         "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100",
+      chapterLogo: "https://placehold.co/100x100/FFF/000000",
       chapterChair: "Chair",
       chapterSecretary: "Secratary",
       chapterSite: "www.chapter.com",
@@ -30,10 +27,10 @@ export default function Chapters() {
 
     {
       chapterName: "Chapter Name",
-      chapterImage: "https://placehold.co/300x300",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
         "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100",
+      chapterLogo: "https://placehold.co/100x100/FFF/000000",
       chapterChair: "Chair",
       chapterSecretary: "Secratary",
       chapterSite: "www.chapter.com",
@@ -41,10 +38,10 @@ export default function Chapters() {
 
     {
       chapterName: "Chapter Name",
-      chapterImage: "https://placehold.co/300x300",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
         "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100",
+      chapterLogo: "https://placehold.co/100x100/FFF/000000",
       chapterChair: "Chair",
       chapterSecretary: "Secratary",
       chapterSite: "www.chapter.com",
@@ -52,10 +49,10 @@ export default function Chapters() {
 
     {
       chapterName: "Chapter Name",
-      chapterImage: "https://placehold.co/300x300",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
         "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100",
+      chapterLogo: "https://placehold.co/100x100/FFF/000000",
       chapterChair: "Chair",
       chapterSecretary: "Secratary",
       chapterSite: "www.chapter.com",
@@ -63,10 +60,10 @@ export default function Chapters() {
 
     {
       chapterName: "Chapter Name",
-      chapterImage: "https://placehold.co/300x300",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
         "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100",
+      chapterLogo: "https://placehold.co/100x100/FFF/000000",
       chapterChair: "Chair",
       chapterSecretary: "Secratary",
       chapterSite: "www.chapter.com",
