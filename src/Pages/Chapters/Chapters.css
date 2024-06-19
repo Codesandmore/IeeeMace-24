@@ -1,58 +1,88 @@
-.chapters-title{
-    color: #792196;
+
+.chapters {
+  padding: 20px;
+  overflow-x: auto; /* Enable horizontal scrolling */
 }
+
 
 .chapter-cards-container {
-    display: flex;
-    justify-content: space-around; /* Adjust as needed for spacing */
-  }
-
- .chapter-card {
   display: flex;
-  flex-direction: column;
-  border: 1px solid #ccc;
-  margin: 10px;
-  padding: 15px;
-  width: 300px; /* Increased width to accommodate all contents */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex-wrap: nowrap; /* Prevent wrapping */
+  justify-content: flex-start;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding-bottom: 20px;
 }
 
+.chapter-card {
+  background-color: #D9D9D9;
+  margin: 10px;
+  width: 320px;
+  height: 100%;
+  transition: transform 0.3s;
+  flex: 0 0 auto; /* Prevent flex items from shrinking or growing */
+  border-width: 12px;
+  border-color: #D9D9D9;
+}
 
-.chapter-details {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
+.chapter-card:hover {
+  transform: scale(1.05);
 }
 
 .chapter-image {
-    width: 300px;
-  }
-  
+  width: 300px;
+  height: 300px;
+}
+
+.chapter-details {
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  justify-content: space-between; /* Space items to the top and bottom */
+  height: 100%; /* Ensure the container takes the full height */
+  padding: 20px;
+}
+
 .chapter-logo {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  margin-top: -10px;
+  margin-left: -20px;
+  display: block;
 }
 
 .chapter-text {
-    margin-left: 120px; 
-    text-align: left;
-    line-height: 1;
-  }
+  text-align: left;
+  margin-top: 10px;
+  flex: 1;
+  margin-left: 20px;
+}
 
-  .chapter-details h2 {
-    font-size: 18px;
-  }
+.chapter-text h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #333;
+}
 
-  .chapter-details p {
-    font-size: 11px;
-  }
+.chapter-text p {
+  font-size: 0.9rem;
+  color: #666;
+}
 
 .chapter-heads {
-    margin-top: auto;
-    text-align: left;
-    line-height: 0.5;
-  }
+  margin-top: 20px;
+  text-align: left;
+}
 
+.chapter-heads p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #333;
+}
 
+.chapter-heads a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.chapter-heads a:hover {
+  text-decoration: underline;
+}
