@@ -69,17 +69,7 @@
 }
 @media screen and (max-width: 1031px) {
     .gallery{
-        height: 200dvh;
-    }
-}
-@media screen and (max-width: 770px) {
-    .gallery{
-        height: 290dvh;
-    }
-}
-@media screen and (max-width: 500px) {
-    .gallery{
-        grid-template-rows: 2% 98%;
+        grid-template-rows: auto auto;
         height: fit-content;
     }
 }
