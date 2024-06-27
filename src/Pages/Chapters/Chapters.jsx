@@ -79,20 +79,26 @@ export default function Chapters() {
           className="chapter-image"
         />
         <div className="chapter-details">
-          <img
-            src={chapter.chapterLogo}
-            alt={chapter.chapterName}
-            className="chapter-logo"
-          />
-          <div className="chapter-text">
-            <h2>{chapter.chapterName}</h2>
-            <p>{chapter.chapterDescription}</p>
+          <div className="chapter-logo_text">
+            <img
+              src={chapter.chapterLogo}
+              alt={chapter.chapterName}
+              className="chapter-logo"
+            />
+            <div className="chapter-text">
+              <h2>{chapter.chapterName}</h2>
+              <p>{chapter.chapterDescription}</p>
+            </div>
           </div>
           <div className="chapter-heads">
-            <p>Chair: {chapter.chapterChair}</p>
-            <p>Secretary: {chapter.chapterSecretary}</p>
             <p>
-              Visit: <a href="">{chapter.chapterSite}</a>
+              <span>Chair:</span> {chapter.chapterChair}
+            </p>
+            <p>
+              <span>Secretary:</span> {chapter.chapterSecretary}
+            </p>
+            <p>
+              <span>Visit:</span> <a href="">{chapter.chapterSite}</a>
             </p>
           </div>
         </div>
