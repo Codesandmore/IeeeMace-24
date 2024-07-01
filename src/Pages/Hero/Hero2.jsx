@@ -11,10 +11,11 @@ export default function Hero2() {
               Travel Grant, Scholarships & Fellowship
             </h4>
             <p className="hero-2-card-para">
-              IEEE offers a number of student travel grants to assist Student
-              members in attending conferences and presenting papers. IEEE
-              offers a variety of scholarships, grants, and fellowships for IEEE
-              Student members
+              IEEE offers travel grants for student members to attend
+              conferences and present research papers, scholarships and
+              fellowships for academic excellence, an eLearning Library with
+              online courses, and over 1,300 active standards developed through
+              an open process.
             </p>
           </div>
         </div>

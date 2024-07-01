@@ -6,55 +6,55 @@ export default function Events() {
       eventName: "Cybosium",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/cybosium.jpg",
     },
     {
       eventName: "TechComm",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/techcomm.jpg",
     },
     {
       eventName: "Sigma",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/sigma.jpg",
     },
     {
       eventName: ".hack();'23",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/hack23.jpg",
     },
     {
       eventName: "SPARC 2022",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/sparc2022.jpg",
     },
     {
       eventName: "SPARC 2023",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/sparc2023.jpg",
     },
     {
-      eventName: "Stem Expo 2022",
+      eventName: "PULSE 2023",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/pulse2023.jpg",
     },
     {
       eventName: "SheCanCode2023",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/she_can_code.jpg",
     },
     {
       eventName: "Web.abc",
       eventDescription:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, quaerat eveniet cupiditate voluptas voluptatum incidunt quidem explicabo dolorum voluptate similique dicta iure unde.",
-      eventImage: "/images/events/NSS_PACE.png",
+      eventImage: "/images/events/webabc.jpg",
     },
   ];
 

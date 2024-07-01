@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./navbar.css";
-import MaceLogo from "../../assets/mace-white.svg";
 import { FaBars } from "react-icons/fa";
 
 export default function Navbar() {
@@ -11,7 +10,11 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navBar">
           <div className="logo">
-            <img src={MaceLogo} alt="Mace Logo" />
+            {window.innerWidth > 769 ? (
+              <img src="images/IEEE_MACE_SB_clr.png" alt="Mace Logo" />
+            ) : (
+              <img src="images/IEEE_MACE_SB_clr_small.png" alt="Mace Logo" />
+            )}
           </div>
           <FaBars
             className="bars"

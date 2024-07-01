@@ -27,6 +27,7 @@
 .event-image img{
     width: 215px;
     height: 215px;
+    object-fit: cover;
 }
 .event-content{
     width: 225px;

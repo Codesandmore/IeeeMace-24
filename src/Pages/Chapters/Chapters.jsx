@@ -4,68 +4,98 @@ import "./Chapters.css";
 export default function Chapters() {
   const chaptersData = [
     {
-      chapterName: "Chapter Name",
+      chapterName: "Computer Society",
       chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
-        "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100/FFF/000000",
-      chapterChair: "Chair",
-      chapterSecretary: "Secratary",
+        "The IEEE Computer Society serves as a leading hub for knowledge, innovation, and community among computer science and engineering professionals globally. It supports individuals across all career stages with essential resources for advancing technology and fostering professional growth.",
+      chapterLogo: "images/Chapters/Logo/cs_logo.png",
+      chapterChair: "Colin Jimmy",
+      chapterSecretary: "Ronal Shoey",
       chapterSite: "www.chapter.com",
     },
 
     {
-      chapterName: "Chapter Name",
+      chapterName: "Robotics and Automation Society",
       chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
-        "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100/FFF/000000",
-      chapterChair: "Chair",
-      chapterSecretary: "Secratary",
+        "The IEEE Robotics and Automation Society (RAS) dedicates itself to advancing robotics and automation through scientific and technological knowledge exchange, upholding high professional standards among members, and promoting benefits to the profession and society.",
+      chapterLogo: "images/Chapters/Logo/IEEE_RAS_logo.png",
+      chapterChair: "Mathew Vinu Benny",
+      chapterSecretary: "Neha Savy",
       chapterSite: "www.chapter.com",
     },
 
     {
-      chapterName: "Chapter Name",
+      chapterName: "Signal and Processing Society",
       chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
-        "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100/FFF/000000",
-      chapterChair: "Chair",
-      chapterSecretary: "Secratary",
+        "The IEEE Signal Processing Society (SPS) leads advancements in signal processing and machine learning. It promotes global research, education, and collaboration among engineers and scientists, catalyzing innovation across sectors such as communications and healthcare.",
+      chapterLogo: "images/Chapters/Logo/sps_logo.png",
+      chapterChair: "Olivia Jain",
+      chapterSecretary: "Naveen Prasad",
       chapterSite: "www.chapter.com",
     },
 
     {
-      chapterName: "Chapter Name",
+      chapterName: "Communication Society",
       chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
-        "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100/FFF/000000",
-      chapterChair: "Chair",
-      chapterSecretary: "Secratary",
+        "The IEEE Communications Society facilitates technological innovation and global information exchange among technical professionals. It supports member development through educational resources and forums for technical discourse in academia, industry, and public sectors.",
+      chapterLogo: "images/Chapters/Logo/comsoc_logo.png",
+      chapterChair: "Silda Sholly",
+      chapterSecretary: "Shraddha Sasikumar",
       chapterSite: "www.chapter.com",
     },
 
     {
-      chapterName: "Chapter Name",
+      chapterName: "Industry Applications Society",
       chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
-        "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100/FFF/000000",
-      chapterChair: "Chair",
-      chapterSecretary: "Secratary",
+        " The IEEE Industry Applications Society leads in advancing theory and practice for safe, sustainable, reliable, and smart electrical systems worldwide. It supports innovation in designing, developing, manufacturing, and applying cutting-edge technologies and services.",
+      chapterLogo: "images/Chapters/Logo/IAS_logo.png",
+      chapterChair: "Amritha M",
+      chapterSecretary: "Ameena R",
       chapterSite: "www.chapter.com",
     },
 
     {
-      chapterName: "Chapter Name",
+      chapterName: "Power & Energy Society",
       chapterImage: "https://placehold.co/300x300/FFF/000000",
       chapterDescription:
-        "Chapter Description: Contrary to popular belief, Lorem Ipsum is not simply random text.It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. ",
-      chapterLogo: "https://placehold.co/100x100/FFF/000000",
-      chapterChair: "Chair",
-      chapterSecretary: "Secratary",
+        "The IEEE Power & Energy Society (PES) serves as a premier global platform for advancing technological innovations in the electric power industry. It sets standards, fosters research, and promotes education to ensure safe, sustainable, and efficient energy conversion, transmission, and usage.",
+      chapterLogo: "images/Chapters/Logo/PES_Logo.png",
+      chapterChair: "Akhil Sebastian",
+      chapterSecretary: "Jes Gigo",
+      chapterSite: "www.chapter.com",
+    },
+    {
+      chapterName: "Power Electronics Society",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
+      chapterDescription:
+        "The IEEE Power Electronics Society (PELS) advances power electronics by leveraging electronic components, circuit theory, and analytical tools for efficient power conversion. The Industry Electronics Society (IES) enhances industrial processes through the application of electronics, controls, communications, and computational intelligence.",
+      chapterLogo: "images/Chapters/Logo/PELS_Logo.png",
+      chapterChair: "Anu Anil",
+      chapterSecretary: "Jyothika Vinod",
+      chapterSite: "www.chapter.com",
+    },
+    {
+      chapterName: "Women in Engineering",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
+      chapterDescription:
+        "IEEE Women in Engineering (WIE) is a global network committed to promoting women in engineering and science, inspiring girls to pursue technical careers, and fostering a diverse community to innovate for the benefit of humanity.",
+      chapterLogo: "images/Chapters/Logo/WIE_logo.png",
+      chapterChair: "Nandana M J",
+      chapterSecretary: "Nandana Jolly",
+      chapterSite: "www.chapter.com",
+    },
+    {
+      chapterName: "Special Interest Group on Humanitarian Technology",
+      chapterImage: "https://placehold.co/300x300/FFF/000000",
+      chapterDescription:
+        "The IEEE Special Interest Group on Humanitarian Technology (SIGHT) is a global network of IEEE volunteers partnering with underserved communities to leverage technology for sustainable development, identifying and addressing local problems through technical skills and community collaboration.",
+      chapterLogo: "images/Chapters/Logo/sight_logo.png",
+      chapterChair: "Siyadh M N",
+      chapterSecretary: "Sian Lee",
       chapterSite: "www.chapter.com",
     },
   ];
@@ -85,11 +115,9 @@ export default function Chapters() {
               alt={chapter.chapterName}
               className="chapter-logo"
             />
-            <div className="chapter-text">
-              <h2>{chapter.chapterName}</h2>
-              <p>{chapter.chapterDescription}</p>
-            </div>
+            <h2>{chapter.chapterName}</h2>
           </div>
+          <p className="chapter-description">{chapter.chapterDescription}</p>
           <div className="chapter-heads">
             <p>
               <span>Chair:</span> {chapter.chapterChair}

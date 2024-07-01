@@ -7,8 +7,8 @@ export default function Hero() {
     <section id="Hero" className="section hero">
       <div className="content">
         <h1 className="heading">
-          IEEE THE TRUSTED “VOICE” FOR ENGINEERING, COMPUTING, AND TECHNOLOGY
-          INFORMATION AROUND THE GLOBE.
+          "Advancing technology for a brighter future: Join IEEE for global
+          leadership and community impact."
         </h1>
         <button className="join-us">
           <div className="join-us-div">JOIN US</div>

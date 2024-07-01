@@ -7,8 +7,9 @@
     background: #001D3E;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     z-index: 15;
+    padding: 0 20px;
 }
 .navBar{
     width: 30%;
@@ -21,13 +22,18 @@
     z-index: 10;
 }
 .navbar .logo{
-    width: clamp(50%, 80% ,100%);
+    width: clamp(50%, 80% ,90%);
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
+    padding: 0 20px;
 }
-
+.navbar .logo img{
+    object-fit: cover;
+    height: 10dvh;
+    width: 100%;
+}
 .nav-bar{
     display: flex;
     width: 50%;
@@ -80,10 +86,12 @@
         flex-direction: column;
         background: #001D3E;
         z-index: -1;
+        opacity: 0;
         transition: all 0.3s linear;
     }
     .nav-bar-active{
         top: 10dvh;
+        opacity: 1;
     }
     .nav-bar li{
         width: 100%;
@@ -95,5 +103,10 @@
     }
     .bars{
         display: block;
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbar .logo img{
+        width: 100px;
     }
 }
