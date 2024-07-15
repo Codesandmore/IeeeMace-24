@@ -354,7 +354,7 @@ const ExecomFull = () => {
   };
 
   return (
-    <div className="execom">
+    <div className="execom execom-full">
       <h1 className="section-heading">Execom</h1>
       <div className="execom-cards">
         {members.map((member, index) => (

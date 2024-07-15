@@ -1,6 +1,9 @@
 .execom {
     padding: 20px;
 }
+.execom-full{
+    padding-top: 80px;
+}
 
 .section-heading {
     text-align: center;

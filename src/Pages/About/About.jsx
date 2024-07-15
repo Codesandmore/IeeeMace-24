@@ -16,24 +16,21 @@ const About = () => {
             MACE
           </h4>
           <p className="text-sm text-black font-semibold text-justify">
-            IEEE is the world's largest technical professional organization
-            dedicated to advancing technology for the benefit of humanity. IEEE
-            Student Branch MACE (Student Branch Code: 32041) was established on
-            November 17th, 1988 and is one of the largest student branches
-            across the globe with over 500 student members. Every year numerous
-            events are conducted by IEEE MACE SB to enhance the skills of our
-            students and to equip them with the rapidly changing industry. IEEE
-            MACE SB offers a Hardware Laboratory to the members to develop
-            technical projects. IEEE conducts Training programmes, talks,
-            professional awareness sessions, hackathons, industrial visits,
-            debates, quizzes and workshops regularly.
+            Mar Athanasius College of Engineering pioneered engineering
+            education in central Kerala in 1961. Managed by the Mar Athanasius
+            College Association, Aided by the Government of Kerala, the college
+            was the first in Asia under Christian Management. The college is
+            affiliated to APJ Abdul Kalam Technological University. MACE, as it
+            is popularly known, has grown by leaps and bounds since. It now has
+            six full-fledged departments apart from the two auxiliary
+            departments of Mathematics, Science, and Humanities.
           </p>
         </div>
       </div>
 
       <div className="mt-20 grid gap-y-4 lg:grid-cols-3 lg:items-center lg:mt-0">
         <img
-          src="/images/about2.jpg"
+          src="/images/About/IEEE_MACE_SB.jpg"
           alt="img2"
           className="relative h-full rounded-[35px] shadow-[-10px_1px_8px_0px_rgba(0,0,0,0.2)] sm:w-1/2 sm:mx-auto lg:w-full lg:h-[19rem] lg:order-last"
         />
@@ -42,17 +39,22 @@ const About = () => {
             IEEE MACE SB
           </h4>
           <p className="text-sm text-black font-semibold text-justify">
-            IEEE is the world’s largest technical professional organization
-            dedicated to advancing technology for the benefit of humanity. IEEE
-            Student Branch MACE (Student Branch Code: 32041) was established on
-            November 17th, 1988 and is one of the largest student branches
-            across the globe with over 500 student members. Every year numerous
-            events are conducted by IEEE MACE SB to enhance the skills of our
-            students and to equip them with the rapidly changing industry. IEEE
-            MACE SB offers a Hardware Laboratory to the members to develop
-            technical projects. IEEE conducts Training programmes, talks,
-            professional awareness sessions, hackathons, industrial visits,
-            debates, quizzes and workshops regularly.
+            IEEE Student Branch MACE (Student Branch Code: 32041) was
+            established on November 17th, 1988, and is one of the largest
+            student branches across the globe, with over 300 student members.
+            With over 35 years since its establishment, numerous events are
+            hldEvery year numerous events are conducted by IEEE MACE SB to
+            enhance our students' skills and equip them with the rapidly
+            changing industry. IEEE MACE SB offers a Hardware Laboratory for the
+            members to develop technical projects. IEEE regularly conducts
+            training programmes, talks, professional awareness sessions,
+            hackathons, industrial visits, debates, quizzes, and workshops. The
+            Student Branch takes the utmost pride in its volunteers, who are
+            very active and ever-ready to take up and solve challenges. Many of
+            the volunteers are part of teams at various levels. We take pride in
+            ensuring to meet the needs of our students in their areas of
+            interest and guide and help them to be better and responsible
+            professionals for a better tomorrow.
           </p>
         </div>
       </div>

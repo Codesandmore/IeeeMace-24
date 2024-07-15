@@ -140,6 +140,12 @@ const Footer = () => {
       </div>
       <div className="claim">
         <p>
+          Designed and Developed by{" "}
+          <Link to="/webteam">
+            <span className="ieee-footer">IEEE MACE SB WebTeam 2024</span>
+          </Link>
+        </p>
+        <p>
           <i className="fa">
             <FaRegCopyright />
           </i>

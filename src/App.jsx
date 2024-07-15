@@ -11,32 +11,34 @@ import Navbar from "./Pages/Navbar/Navbar";
 import Hero2 from "./Pages/Hero/Hero2";
 import Contact from "./Pages/ContactUs/ContactUs";
 import Footer from "./Pages/Footer/Footer";
+import WebTeam from "./Pages/Execom/WebTeam";
 function App() {
   return (
     <div style={{ position: "relative" }}>
       <Navbar />
       <Router>
-        <Hero />
-        <Hero2 />
-        <section className="main">
-          <Routes>
-            <Route
-              path="/"
-              element={
-                <>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Hero />
+                <Hero2 />
+                <section className="main">
                   <About />
                   <Events />
                   <Execom />
                   <Gallery />
                   <Chapters />
-                  <Contact/>
-                  <Footer/>
-                </>
-              }
-            />
-            <Route path="/execom" element={<ExecomFull />} />
-          </Routes>
-        </section>
+                  <Contact />
+                  <Footer />
+                </section>
+              </>
+            }
+          />
+          <Route path="/execom" element={<ExecomFull />} />
+          <Route path="/webteam" element={<WebTeam />} />
+        </Routes>
       </Router>
     </div>
   );
