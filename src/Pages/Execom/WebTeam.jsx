@@ -7,7 +7,7 @@ const WebTeam = () => {
     {
       name: "Chackochan Jose",
       email: "chackochanjose@ieee.org",
-      role: "WebMaster",
+      role: "Webmaster",
       image: "/images/execom/chacko.png",
     },
     {
@@ -20,25 +20,25 @@ const WebTeam = () => {
       name: "Adwaith Raj",
       email: "adwaithraj45654@gmail.com",
       role: "Web Team",
-      image: "/images/execom/neethu.png",
+      image: "/images/web/adwaith1.png",
     },
     {
       name: "Alan Antony",
       email: "voa.alan@ieee.org",
       role: "Web Team",
-      image: "/images/execom/neethu.png",
+      image: "/images/web/alan.png",
     },
     {
       name: "Ajay Susanth",
       email: "ajaysusanth10@gmail.com",
       role: "Web Team",
-      image: "/images/execom/neethu.png",
+      image: "/images/web/ajay.png",
     },
     {
       name: "Fidha Ahamed",
       email: "fidhaahamedpp@gmail.com",
       role: "Web Team",
-      image: "/images/execom/neethu.png",
+      image: "/images/web/fidha1.png",
     },
   ];
 
