@@ -20,7 +20,7 @@ const WebTeam = () => {
       name: "Adwaith Raj",
       email: "adwaithraj45654@gmail.com",
       role: "Web Team",
-      image: "/images/web/adwaith1.png",
+      image: "/images/web/adwaith.png",
     },
     {
       name: "Alan Antony",
@@ -38,7 +38,7 @@ const WebTeam = () => {
       name: "Fidha Ahamed",
       email: "fidhaahamedpp@gmail.com",
       role: "Web Team",
-      image: "/images/web/fidha1.png",
+      image: "/images/web/fidha.png",
     },
   ];
 
