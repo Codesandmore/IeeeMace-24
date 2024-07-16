@@ -11,7 +11,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/cs_logo.png",
       chapterChair: "Colin Jimmy",
       chapterSecretary: "Ronal Shoey George",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://computer.org",
     },
 
     {
@@ -22,7 +22,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/IEEE_RAS_logo.png",
       chapterChair: "Mathew Vinu Benny",
       chapterSecretary: "Neha Savy",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://ieee-ras.org",
     },
 
     {
@@ -33,7 +33,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/sps_logo.png",
       chapterChair: "Olivia Jain",
       chapterSecretary: "Naveen Prasad",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://signalprocessingsociety.org",
     },
 
     {
@@ -44,7 +44,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/comsoc_logo.png",
       chapterChair: "Silda Sholly",
       chapterSecretary: "Shraddha Sasikumar",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://comsoc.org",
     },
 
     {
@@ -55,7 +55,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/IAS_logo.png",
       chapterChair: "Amritha M",
       chapterSecretary: "Ameena R",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://ias.ieee.org",
     },
 
     {
@@ -66,7 +66,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/PES_Logo.png",
       chapterChair: "Akhil Sebastian",
       chapterSecretary: "Jes Gigo",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://ieee-pes.org",
     },
     {
       chapterName: "Power Electronics Society",
@@ -76,7 +76,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/PELS_Logo.png",
       chapterChair: "Anu Anil",
       chapterSecretary: "Jyothika Vinod",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://ieee-pels.org",
     },
     {
       chapterName: "Women in Engineering",
@@ -86,7 +86,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/WIE_logo.png",
       chapterChair: "Nandana M J",
       chapterSecretary: "Nandana Jolly",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://wie.ieee.org",
     },
     {
       chapterName: "Special Interest Group on Humanitarian Technology",
@@ -96,7 +96,7 @@ export default function Chapters() {
       chapterLogo: "images/Chapters/Logo/sight_logo.png",
       chapterChair: "Siyadh M N",
       chapterSecretary: "Sian Lee",
-      chapterSite: "www.chapter.com",
+      chapterSite: "https://sight.ieee.org",
     },
   ];
 
@@ -126,7 +126,7 @@ export default function Chapters() {
               <span>Secretary:</span> {chapter.chapterSecretary}
             </p>
             <p>
-              <span>Visit:</span> <a href="">{chapter.chapterSite}</a>
+            <span>Visit:</span> <a href={chapter.chapterSite} target="_blank" rel="noopener noreferrer">{chapter.chapterSite}</a>
             </p>
           </div>
         </div>
