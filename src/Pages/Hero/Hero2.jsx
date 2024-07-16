@@ -23,8 +23,9 @@ export default function Hero2() {
           <div>
             <h4 className="hero-2-card-heading">IEEE eLearning Library</h4>
             <p className="hero-2-card-para">
-              Online courses enable you to get up to speed quickly on emerging
-              technologies and trends.
+              The eLearning Library provides Online Access for students to
+              access a huge collection of resources for learning and research
+              for students from various fields.
             </p>
           </div>
           <div className="hero-2-img"></div>
@@ -33,9 +34,11 @@ export default function Hero2() {
           <div>
             <h4 className="hero-2-card-heading">IEEE Standards</h4>
             <p className="hero-2-card-para">
-              With an active portfolio of nearly 1,300 standards and projects
-              under development, IEEE is a leading developer of industry
-              standards in a broad range of technologies.
+              IEEE Standards are globally recognized guidelines ensuring
+              consistency, interoperability, and safety across diverse
+              technologies. Developed through a consensus process, they enhance
+              product reliability, facilitate innovation, and support seamless
+              integration in various industries.
             </p>
           </div>
           <div className="hero-2-img"></div>

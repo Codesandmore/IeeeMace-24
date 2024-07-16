@@ -25,8 +25,8 @@ export default function Navbar() {
         </div>
         <ul className={`nav-bar ${active ? "nav-bar-active" : ""}`}>
           <li>HOME</li>
-          <li>WHY IEEE</li>
           <li>ABOUT US</li>
+          <li>EVENTS</li>
           <li>GALLERY</li>
           <li>CHAPTERS</li>
           <li>CONTACT</li>

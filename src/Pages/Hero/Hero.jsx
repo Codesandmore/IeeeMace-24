@@ -24,12 +24,11 @@ export default function Hero() {
               </div>
               <div className="back">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolorum saepe qui beatae. Alias atque ducimus porro harum
-                  explicabo non? Sequi quos quod perspiciatis laboriosam maxime
-                  debitis modi quaerat iste labore tenetur laudantium suscipit,
-                  inventore pariatur architecto, quibusdam aliquam. Voluptas
-                  laudantium nobis
+                  IEEE is a global organization that develops standards to
+                  ensure the consistency, compatibility, and interoperability of
+                  technology. Covering areas like electronics,
+                  telecommunications, and computing, IEEE enhances product
+                  reliability and fosters innovation across various industries.
                 </p>
               </div>
             </div>
@@ -42,12 +41,8 @@ export default function Hero() {
               </div>
               <div className="back">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolorum saepe qui beatae. Alias atque ducimus porro harum
-                  explicabo non? Sequi quos quod perspiciatis laboriosam maxime
-                  debitis modi quaerat iste labore tenetur laudantium suscipit,
-                  inventore pariatur architecto, quibusdam aliquam. Voluptas
-                  laudantium nobis
+                  IEEE's core purpose is to foster technological innovation and
+                  excellence for the benefit of humanity.
                 </p>
               </div>
             </div>
@@ -60,12 +55,10 @@ export default function Hero() {
               </div>
               <div className="back">
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolorum saepe qui beatae. Alias atque ducimus porro harum
-                  explicabo non? Sequi quos quod perspiciatis laboriosam maxime
-                  debitis modi quaerat iste labore tenetur laudantium suscipit,
-                  inventore pariatur architecto, quibusdam aliquam. Voluptas
-                  laudantium nobis
+                  IEEE will be essential to the global technical community and
+                  to technical professionals everywhere, and be universally
+                  recognized for the contributions of technology and of
+                  technical professionals in improving global conditions.
                 </p>
               </div>
             </div>
@@ -74,41 +67,37 @@ export default function Hero() {
         <div className="hero-cards-mob">
           <div className="hero-card-mob hero-card-mob-active">
             <h4>
-              <BiSolidHelpCircle />
+              <FaRocket />
               WHAT IS IEEE ?
             </h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-              saepe qui beatae. Alias atque ducimus porro harum explicabo non?
-              Sequi quos quod perspiciatis laboriosam maxime debitis modi
-              quaerat iste labore tenetur laudantium suscipit, inventore
-              pariatur architecto, quibusdam aliquam. Voluptas laudantium nobis
+              IEEE is a global organization that develops standards to ensure
+              the consistency, compatibility, and interoperability of
+              technology. Covering areas like electronics, telecommunications,
+              and computing, IEEE enhances product reliability and fosters
+              innovation across various industries.
             </p>
           </div>
           <div className="hero-card-mob">
             <h4>
               <BiSolidHelpCircle />
-              WHAT IS IEEE ?
+              MISSION
             </h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-              saepe qui beatae. Alias atque ducimus porro harum explicabo non?
-              Sequi quos quod perspiciatis laboriosam maxime debitis modi
-              quaerat iste labore tenetur laudantium suscipit, inventore
-              pariatur architecto, quibusdam aliquam. Voluptas laudantium nobis
+              IEEE's core purpose is to foster technological innovation and
+              excellence for the benefit of humanity.
             </p>
           </div>
           <div className="hero-card-mob">
             <h4>
-              <BiSolidHelpCircle />
-              WHAT IS IEEE ?
+              <FaEye />
+              VISION
             </h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum
-              saepe qui beatae. Alias atque ducimus porro harum explicabo non?
-              Sequi quos quod perspiciatis laboriosam maxime debitis modi
-              quaerat iste labore tenetur laudantium suscipit, inventore
-              pariatur architecto, quibusdam aliquam. Voluptas laudantium nobis
+              IEEE will be essential to the global technical community and to
+              technical professionals everywhere, and be universally recognized
+              for the contributions of technology and of technical professionals
+              in improving global conditions.
             </p>
           </div>
         </div>
