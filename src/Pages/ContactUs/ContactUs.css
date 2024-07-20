@@ -124,3 +124,23 @@
     color: #888888;
     opacity: 1;
 }
+
+#load, #success, #error {
+    display: none;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#load {
+    display: block;
+}
+
+#success {
+    display: block;
+    color: #fecd6a;
+}
+
+#error {
+    display: block;
+    color: red;
+}

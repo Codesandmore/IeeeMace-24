@@ -24,12 +24,12 @@ export default function Navbar() {
           />
         </div>
         <ul className={`nav-bar ${active ? "nav-bar-active" : ""}`}>
-          <li>HOME</li>
-          <li>ABOUT US</li>
-          <li>EVENTS</li>
-          <li>GALLERY</li>
-          <li>CHAPTERS</li>
-          <li>CONTACT</li>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#About">ABOUT US</a></li>
+          <li><a href="#Event">EVENTS</a></li>
+          <li><a href="#Gallery">GALLERY</a></li>
+          <li><a href="#Chapters">CHAPTERS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
     </>
