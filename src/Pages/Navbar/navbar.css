@@ -58,7 +58,9 @@
     -webkit-text-stroke-color: #FFA800;
 }
 
-
+.navbar .logo img{
+    width: 80%;
+}
 /* mobile view */
 .bars{
     display: none;
