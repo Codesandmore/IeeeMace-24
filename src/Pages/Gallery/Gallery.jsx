@@ -4,11 +4,11 @@ import "./Gallery.css";
 export default function Gallery() {
   const gallery = [
     {
-      imagePath: "/images/gallery/g1.JPG",
-      paragraph: '"AGM 2023"',
+      imagePath: "/images/gallery/a1.JPG",
+      paragraph: '"AGM 2024"',
     },
     {
-      imagePath: "/images/gallery/g2.JPG",
+      imagePath: "/images/gallery/a2.jpg",
       paragraph: '"PELS Day"',
     },
     {
@@ -16,7 +16,7 @@ export default function Gallery() {
       paragraph: '"Subcommittee Training"',
     },
     {
-      imagePath: "/images/gallery/g3.jpg",
+      imagePath: "/images/gallery/a4.jpg",
       paragraph: '"PES Day"',
     },
     {

@@ -31,7 +31,7 @@ export default function Chapters() {
       chapterDescription:
         "The IEEE Signal Processing Society (SPS) leads advancements in signal processing and machine learning. It promotes global research, education, and collaboration among engineers and scientists, catalyzing innovation across sectors such as communications and healthcare.",
       chapterLogo: "images/Chapters/Logo/sps_logo1.png",
-      chapterChair: "Olivia Jain",
+      chapterChair: "Oliviya Jain",
       chapterSecretary: "Naveen Prasad",
       chapterSite: "https://signalprocessingsociety.org",
     },
