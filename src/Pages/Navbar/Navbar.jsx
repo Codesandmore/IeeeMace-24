@@ -10,11 +10,7 @@ export default function Navbar() {
       <nav className="navbar">
         <div className="navBar">
           <div className="logo">
-            {window.innerWidth > 769 ? (
-              <img src="images/IEEE_MACE_SB_clr.png" alt="Mace Logo" />
-            ) : (
-              <img src="images/IEEE_MACE_SB_clr_small.png" alt="Mace Logo" />
-            )}
+            {/* <img src="images/mace_white.png" alt="Mace Logo" /> */}
           </div>
           <FaBars
             className="bars"
@@ -24,12 +20,66 @@ export default function Navbar() {
           />
         </div>
         <ul className={`nav-bar ${active ? "nav-bar-active" : ""}`}>
-          <li><a href="#">HOME</a></li>
-          <li><a href="#About">ABOUT US</a></li>
-          <li><a href="#Event">EVENTS</a></li>
-          <li><a href="#Gallery">GALLERY</a></li>
-          <li><a href="#Chapters">CHAPTERS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+          <li>
+            <a
+              href="#"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              HOME
+            </a>
+          </li>
+          <li>
+            <a
+              href="#About"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              ABOUT US
+            </a>
+          </li>
+          <li>
+            <a
+              href="#Event"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              EVENTS
+            </a>
+          </li>
+          <li>
+            <a
+              href="#Gallery"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              GALLERY
+            </a>
+          </li>
+          <li>
+            <a
+              href="#Chapters"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              CHAPTERS
+            </a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              onClick={() => {
+                setActive(!active);
+              }}
+            >
+              CONTACT
+            </a>
+          </li>
         </ul>
       </nav>
     </>

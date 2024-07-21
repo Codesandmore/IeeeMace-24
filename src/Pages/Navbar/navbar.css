@@ -18,21 +18,19 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 15px;
     z-index: 10;
 }
 .navbar .logo{
-    width: clamp(50%, 80% ,90%);
     height: 100%;
+    width: 250px;
     display: flex;
     align-items: center;
     justify-content: left;
-    padding: 0 20px;
-}
-.navbar .logo img{
-    object-fit: cover;
-    height: 10dvh;
-    width: 100%;
+    /* background: url('images/mace_white.png'); */
+    background: url('images/IEEE_MACE_SB_clr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-bar{
     display: flex;
@@ -57,10 +55,6 @@
     -webkit-text-stroke-width: 0.20000000298023224;
     -webkit-text-stroke-color: #FFA800;
 }
-
-.navbar .logo img{
-    width: 80%;
-}
 /* mobile view */
 .bars{
     display: none;
@@ -76,8 +70,12 @@
 }
 
 @media screen and (max-width: 991px) {
+    .navbar{
+        padding: 0 5px;
+    }
     .navBar{
         width: 100%;
+        /* padding: 0; */
     }
     .nav-bar{
         position: absolute;
@@ -105,10 +103,5 @@
     }
     .bars{
         display: block;
-    }
-}
-@media screen and (max-width: 768px) {
-    .navbar .logo img{
-        width: 100px;
     }
 }
