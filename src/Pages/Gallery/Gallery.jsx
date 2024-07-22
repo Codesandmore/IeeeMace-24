@@ -32,7 +32,7 @@ export default function Gallery() {
       paragraph: '"Awards"',
     },
     {
-      imagePath: "/images/gallery/g9.JPG",
+      imagePath: "/images/gallery/a10.jpg",
       paragraph: '"SPS Day"',
     },
     {
