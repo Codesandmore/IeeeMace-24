@@ -11,7 +11,7 @@ export default function Hero() {
           leadership and community impact."
         </h1>
         <button className="join-us">
-          <div className="join-us-div">JOIN US</div>
+          <div className="join-us-div"><a href="https://www.ieee.org/ " target="_blank">JOIN US</a></div>
         </button>
       </div>
       <div className="bottom">
