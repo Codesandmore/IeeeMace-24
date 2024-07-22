@@ -271,7 +271,7 @@ const ExecomFull = () => {
           name: "Oliviya Jain",
           email: "oliviyajainp@gmail.com",
           role: "Chair",
-          image: "/images/execom/oli1.png",
+          image: "/images/execom/oliviya.png",
         },
         {
           name: "Naveen Prasad",
