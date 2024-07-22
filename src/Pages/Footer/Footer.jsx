@@ -35,8 +35,8 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="link-item" href="#about">
-                    About us
+                  <a className="link-item" href="https://www.ieee.org/" target="_blank">
+                    IEEE
                   </a>
                 </li>
                 <li>
