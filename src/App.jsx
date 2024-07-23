@@ -15,13 +15,13 @@ import WebTeam from "./Pages/Execom/WebTeam";
 function App() {
   return (
     <div style={{ position: "relative" }}>
-      <Navbar />
       <Router>
         <Routes>
           <Route
             path="/"
             element={
               <>
+                <Navbar />
                 <Hero />
                 <Hero2 />
                 <section className="main">
