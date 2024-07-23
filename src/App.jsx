@@ -31,8 +31,8 @@ function App() {
                   <Gallery />
                   <Chapters />
                   <Contact />
-                  <Footer />
                 </section>
+                <Footer />
               </>
             }
           />
