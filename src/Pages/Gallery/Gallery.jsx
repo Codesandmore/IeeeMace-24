@@ -12,36 +12,36 @@ export default function Gallery() {
       paragraph: '"PELS Day"',
     },
     {
-      imagePath: "/images/gallery/g5.jpg",
-      paragraph: '"Subcommittee Training"',
+      imagePath: "/images/gallery/a7.jpg",
+      paragraph: '"Projects"',
     },
     {
       imagePath: "/images/gallery/a4.jpg",
       paragraph: '"PES Day"',
     },
     {
-      imagePath: "/images/gallery/g4.JPG",
+      imagePath: "/images/gallery/a8.jpg",
       paragraph: '"Subcommittee Training"',
     },
     {
-      imagePath: "/images/gallery/g6.jpg",
-      paragraph: '"Arduino Day"',
+      imagePath: "/images/gallery/a6.jpg",
+      paragraph: '"Awards"',
     },
     {
-      imagePath: "/images/gallery/g8.JPG",
-      paragraph: '"Arduino Day"',
+      imagePath: "/images/gallery/a3.jpg",
+      paragraph: '"Awards"',
     },
     {
-      imagePath: "/images/gallery/g9.JPG",
+      imagePath: "/images/gallery/a10.jpg",
       paragraph: '"SPS Day"',
     },
     {
-      imagePath: "/images/gallery/g7.jpg",
-      paragraph: '"Arduino Day"',
+      imagePath: "/images/gallery/a5.jpg",
+      paragraph: '"Achievements"',
     },
     {
-      imagePath: "/images/gallery/g10.jpg",
-      paragraph: '"Bootcamp"',
+      imagePath: "/images/gallery/a9.jpg",
+      paragraph: '"Subcommittee Training"',
     },
   ];
 

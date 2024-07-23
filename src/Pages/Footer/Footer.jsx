@@ -40,8 +40,8 @@ const Footer = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="link-item" href="https://ieeemace.org/">
-                    IEEE MACE SB
+                  <a className="link-item" href="https://ieeekerala.org/" target="_blank">
+                    IEEE Kerala Section
                   </a>
                 </li>
               </ul>
