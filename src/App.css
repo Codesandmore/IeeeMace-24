@@ -10,6 +10,9 @@
 .main{
   padding: 1dvh 5dvw;
 }
+body {
+  font-family: 'Montserrat', sans-serif;
+}
 @media screen and (max-width: 1024px) {
   .main{
     padding: 0.5dvh 2dvw;
