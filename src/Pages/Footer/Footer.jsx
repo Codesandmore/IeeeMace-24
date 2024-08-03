@@ -29,11 +29,11 @@ const Footer = () => {
             <div className="useful-links">
               <h4>Useful Links</h4>
               <ul>
-                <li>
+                {/* <li>
                   <a className="link-item" href="#">
                     Home
                   </a>
-                </li>
+                </li> */}
                 <li>
                   <a className="link-item" href="https://www.ieee.org/" target="_blank">
                     IEEE
@@ -42,6 +42,16 @@ const Footer = () => {
                 <li>
                   <a className="link-item" href="https://ieeekerala.org/" target="_blank">
                     IEEE Kerala Section
+                  </a>
+                </li>
+                <li>
+                  <a className="link-item" href="https://ie-pels.ieeemace.org/" target="_blank">
+                    IEEE IE/PELS Jt. Chapter MACE
+                  </a>
+                </li>
+                <li>
+                  <a className="link-item" href="https://ias.ieeemace.org/" target="_blank">
+                    IEEE IAS SBC MACE
                   </a>
                 </li>
               </ul>

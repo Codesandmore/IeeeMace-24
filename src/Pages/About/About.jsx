@@ -50,8 +50,8 @@ const About = () => {
             training programmes, talks, professional awareness sessions,
             hackathons, industrial visits, debates, quizzes, and workshops. The
             Student Branch takes the utmost pride in its volunteers, who are
-            very active and ever-ready to take up and solve challenges. Many of
-            the volunteers are part of teams at various levels. We take pride in
+            very active and ever-ready to take up and solve challenges.{/*  Many of
+            the volunteers are part of teams at various levels. */} We take pride in
             ensuring to meet the needs of our students in their areas of
             interest and guide and help them to be better and responsible
             professionals for a better tomorrow.
