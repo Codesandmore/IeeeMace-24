@@ -46,7 +46,7 @@
 }
 .event-content p{
     text-align: justify;
-    font-size: 15px;
+    font-size: 14px;
 }
 @media screen and (max-width: 769px) {
     .event-image{
@@ -97,6 +97,6 @@
         font-size: 18px;
     }
     .event-content p{
-        font-size: 11px;
+        font-size: 10.75px;
     }  
 }

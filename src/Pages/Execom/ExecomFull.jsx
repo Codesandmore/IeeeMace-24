@@ -319,7 +319,7 @@ const ExecomFull = () => {
         if (roleElement) {
           const charLength = member.role.length;
           roleElement.style.setProperty("--char-length", charLength);
-          if (charLength > 21) {
+          if (charLength > 18) {
             roleElement.classList.add("fit");
           } else {
             roleElement.classList.remove("fit");
