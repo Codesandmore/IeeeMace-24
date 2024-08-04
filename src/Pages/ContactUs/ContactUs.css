@@ -1,52 +1,37 @@
 .contact {
-    background: #fefeff;
-    padding: 90px 0;
-}
-/* #contacthead{
-    color:black;
-} */
-.contact-container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    /* background: #F7F7F7; */
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: center !important;
-}
-.row {
+    min-height: 100vh; /* Ensure it covers the full viewport height */
+    box-sizing: border-box; /* Include padding in the height calculation */
+  }
+
+  .contact-container {
+    width: 100%;
+    max-width: 800px; /* Set a max-width for the container */
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .row {
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
-
-.col-md-7 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-    position: relative;
     width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    margin: 0; /* Remove negative margins */
   }
-
-.col-md-12 {
-    -ms-flex: 0 0 58.333333%;
-    flex: 0 0 58.333333%;
-    max-width: 58.333333%;
-    position: relative;
+  
+  .col-md-7, .col-md-12 {
     width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-    -ms-flex: 0 0 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-}
+    padding: 0 15px;
+    box-sizing: border-box; /* Include padding in the width calculation */
+  }
+  
+  .main_form {
+    width: 100%;
+  }
+  
 
 .mx-auto {
     margin-right: auto !important;
@@ -107,7 +92,7 @@
 .main_form .send_btn {
     font-size: 17px;
     transition: ease-in all 0.5s;
-    background-color: #323232;
+    background-color: #FFA800;
     text-transform: uppercase;
     color: #fff;
     padding: 25px 0px;
@@ -119,9 +104,9 @@
 }
 
 .main_form .send_btn:hover {
-    background-color: #464646c7;
+    background-color: #F7F7F7;
     transition: ease-in all 0.5s;
-    color: #fff;
+    color: black;
 }
 
 #request *::placeholder {
