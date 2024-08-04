@@ -29,72 +29,37 @@ const Contact = () => {
 
   return (
     <section id="contact" className="contact">
-      <div className="contact-container">
-        <div className="row">
-          <div className="col-md-7" style={{ width: "100%" }}>
-            <h1 className="section-heading" /* id='contacthead' */>
-              Contact Us
-            </h1>
-            <form
-              id="contact-form"
-              className="main_form"
-              onSubmit={handleSubmit}
-              action="https://docs.google.com/spreadsheets/d/1G9fAbTkSow3LpSeoKhnEdz0G0g5SlHWHg3Tt6x7X6y0/edit?gid=0#gid=0"
-              method="post"
-              role="form"
-            >
-              <div className="row">
-                <div className="col-md-12">
-                  <input
-                    className="contactus"
-                    placeholder="Name"
-                    type="text"
-                    name="name"
-                  />
-                </div>
-                <div className="col-md-12">
-                  <input
-                    className="contactus"
-                    placeholder="Phone Number"
-                    type="text"
-                    name="phoneNumber"
-                  />
-                </div>
-                <div className="col-md-12">
-                  <input
-                    className="contactus"
-                    placeholder="Email"
-                    type="email"
-                    name="email"
-                  />
-                </div>
-                <div className="col-md-12">
-                  <textarea
-                    className="textarea"
-                    placeholder="Message"
-                    name="message"
-                  ></textarea>
-                </div>
-                <div className="col-md-12">
-                  <button className="send_btn" type="submit">
-                    Send Now
-                  </button>
-                </div>
-              </div>
-            </form>
-            <div id="load" style={{ display: "none" }}>
-              Loading...
+  <div className="contact-container">
+    <div className="row">
+      <div className="col-md-7" style={{ width: "100%" }}>
+        <h1 className="section-heading" >Contact Us</h1>
+        <form id="contact-form" className="main_form" onSubmit={handleSubmit}>
+          <div className="row">
+            <div className="col-md-12">
+              <input className="contactus" placeholder="Name" type="text" name="name" />
             </div>
-            <div id="success" style={{ display: "none" }}>
-              Success! Your message has been sent.
+            <div className="col-md-12">
+              <input className="contactus" placeholder="Phone Number" type="text" name="phoneNumber" />
             </div>
-            <div id="error" style={{ display: "none" }}>
-              Error! Something went wrong.
+            <div className="col-md-12">
+              <input className="contactus" placeholder="Email" type="email" name="email" />
+            </div>
+            <div className="col-md-12">
+              <textarea className="textarea" placeholder="Message" name="message"></textarea>
+            </div>
+            <div className="col-md-12">
+              <button className="send_btn" type="submit">Send Now</button>
             </div>
           </div>
-        </div>
+        </form>
+        <div id="load" style={{ display: "none" }}>Loading...</div>
+        <div id="success" style={{ display: "none" }}>Success! Your message has been sent.</div>
+        <div id="error" style={{ display: "none" }}>Error! Something went wrong.</div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
+
   );
 };
 

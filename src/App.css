@@ -12,7 +12,7 @@
 }
 body {
   font-family: 'Montserrat', sans-serif;
-  /* background: linear-gradient(45deg, #172238,#7d87a2,#242f46,#020f25,#000b23,#3e4861,#68718c,#959ebb,#c4cdeb); */
+  background: linear-gradient(45deg, #172238,#1d2a46,#242f46,#020f25,#000b23,#223354,#141e32,#101727,#0d1421,#0b111c,#060a10);
 }
 @media screen and (max-width: 1024px) {
   .main{
@@ -37,8 +37,8 @@ body {
   text-align: center;
   font-size: 2.25rem;
   font-weight: 700;
-  color: black;
-  /* color: white; */
+ /*  color: black; */
+  color: white;
   padding-bottom: 15px;
   text-decoration: underline;
 }

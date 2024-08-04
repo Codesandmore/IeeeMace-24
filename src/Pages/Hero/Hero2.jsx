@@ -15,7 +15,7 @@ export default function Hero2() {
               conferences and present research papers, scholarships and
               fellowships for academic excellence, an eLearning Library with
               online courses, and over 1,300 active standards developed through
-              an open process.
+              an open process.
             </p>
           </div>
         </div>

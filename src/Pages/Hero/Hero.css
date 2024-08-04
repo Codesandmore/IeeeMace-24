@@ -198,7 +198,7 @@
 .hero-2{
     width: 100dvw;
     min-height: 100dvh;
-    background: #001D3E;
+    /* background: #001D3E; */
     padding: 1.5% 10%;
     display: grid;
     grid-template-rows: 15% 85%;
