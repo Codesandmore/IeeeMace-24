@@ -12,6 +12,7 @@
 }
 body {
   font-family: 'Montserrat', sans-serif;
+  /* background: linear-gradient(45deg, #172238,#7d87a2,#242f46,#020f25,#000b23,#3e4861,#68718c,#959ebb,#c4cdeb); */
 }
 @media screen and (max-width: 1024px) {
   .main{
@@ -37,6 +38,7 @@ body {
   font-size: 2.25rem;
   font-weight: 700;
   color: black;
+  /* color: white; */
   padding-bottom: 15px;
   text-decoration: underline;
 }

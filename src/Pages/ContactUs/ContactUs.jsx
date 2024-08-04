@@ -31,7 +31,7 @@ const Contact = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-7 mx-auto">
-                        <h1 className="section-heading">Contact Us</h1>
+                        <h1 className="section-heading" /* id='contacthead' */>Contact Us</h1>
                         <form id="contact-form" className="main_form" onSubmit={handleSubmit} 
                         action="https://docs.google.com/spreadsheets/d/1G9fAbTkSow3LpSeoKhnEdz0G0g5SlHWHg3Tt6x7X6y0/edit?gid=0#gid=0"
                         method="post"
