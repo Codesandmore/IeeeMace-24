@@ -118,7 +118,7 @@ export default function Chapters() {
           behavior: "smooth",
         });
       }
-    }, 3000); 
+    }, 1500); 
 
     return () => clearInterval(scrollInterval);
   }, []);
