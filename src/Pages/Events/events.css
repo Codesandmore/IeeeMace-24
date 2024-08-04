@@ -74,7 +74,7 @@
         font-size: 20px;
     }
     .event-content p{
-        font-size: 12px;
+        font-size: 10.5px;
     }  
 }
 @media screen and (max-width: 420px) {
@@ -97,6 +97,6 @@
         font-size: 18px;
     }
     .event-content p{
-        font-size: 10.75px;
+        font-size: 10px;
     }  
 }

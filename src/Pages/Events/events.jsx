@@ -5,31 +5,31 @@ export default function Events() {
     {
       eventName: "Cybosium",
       eventDescription:
-        "India’s inaugural Robotic Seasonal School, organized by IEEE RAS SBC MACE, combined hybrid sessions and a three-day offline event. It emphasized bridging theory and practice in robotics and automation.",
+        "India’s inaugural Robotic Seasonal School, organized by IEEE RAS SBC MACE, featured hybrid sessions and a three-day offline event, focusing on bridging theory and practice in robotics and automation.",
       eventImage: "/images/events/cybosium.jpg",
     },
     {
       eventName: "TechComm",
       eventDescription:
-        "The IEEE ComSoc Student Branch Chapter MACE and IEEE ComSoc Kerala Chapter organized a two-day event, offering college students from Kerala the opportunity to explore various concepts in signals and communication.",
+        "The IEEE ComSoc Student Branch Chapter MACE and IEEE ComSoc Kerala Chapter organized a two-day event for college students in Kerala to explore concepts in signals and communication.",
       eventImage: "/images/events/techcomm.jpg",
     },
     {
       eventName: "Sigma",
       eventDescription:
-        "The IEEE SPS Student Branch Chapter MACE, in collaboration with the IEEE SPS Kerala Chapter, hosted a two-day event for Kerala students to delve into signal processing through talks, workshops, and interactions.",
+        "The IEEE SPS Student Branch Chapter MACE and the IEEE SPS Kerala Chapter hosted a two-day event for Kerala students to explore signal processing through talks, workshops, and interactions.",
       eventImage: "/images/events/sigma.jpg",
     },
     {
       eventName: ".hack();",
       eventDescription:
-        "The annual flagship event of the Student Branch offers resources, encouragement, and mentorship to participants from diverse technical backgrounds, fostering problem-solving in a dynamic atmosphere.",
+        "The annual flagship event of the Student Branch provides resources, encouragement, and mentorship to participants from diverse backgrounds, fostering problem-solving in a dynamic atmosphere.",
       eventImage: "/images/events/hack23.jpg",
     },
     {
       eventName: "Light the Lives",
       eventDescription:
-        "IEEE SIGHT Group MACE volunteers, backed by the IEEE Humanities Technological Board, brought electricity to socially disadvantaged communities in Kuttampuzha, earning the esteemed Amarnath Raja Award.",
+        "IEEE SIGHT Group MACE volunteers, backed by the IEEE Humanities Technological Board, electrified disadvantaged communities in Kuttampuzha, earning the Amarnath Raja Award.",
       eventImage: "/images/events/LightTheLives.jpg",
     },
     {
@@ -39,15 +39,15 @@ export default function Events() {
       eventImage: "/images/events/sparc2023.jpg",
     },
     {
-      eventName: "Stem Expo 2022",
+      eventName: "Stem Expo '22",
       eventDescription:
-        "The IEEE PES Student Branch Chapter MACE organized a STEM Expo, providing pre-university students with insights into technical facilities and fostering their passion for engineering.",
+        "The IEEE PES Student Branch Chapter MACE organized a STEM Expo, giving pre-university students insights into technical facilities and fostering their passion for engineering.",
       eventImage: "/images/events/pulse2023.jpg",
     },
     {
-      eventName: "SheCanCode2023",
+      eventName: "SheCanCode23",
       eventDescription:
-        "Held under the banner of IEEE Women In Engineering Affinity Group MACE, She Can Code gave female coders a unique platform to showcase their skills as seasoned coders and upskills themselves in solving advanced problems.",
+        "Held under the IEEE Women In Engineering Affinity Group MACE, She Can Code gave female coders a platform to showcase their skills and upskill in solving advanced problems.",
       eventImage: "/images/events/she_can_code.jpg",
     },
     {

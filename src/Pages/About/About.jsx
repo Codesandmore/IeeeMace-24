@@ -39,21 +39,17 @@ const About = () => {
             IEEE MACE SB
           </h4>
           <p className="text-sm text-black font-semibold text-justify">
-            IEEE Student Branch MACE (Student Branch Code: 32041) was
-            established on November 17th, 1988, and is one of the largest
-            student branches across the globe, with over 300 student members.
-            With over 35 years since its establishment, numerous events are
-            hldEvery year numerous events are conducted by IEEE MACE SB to
-            enhance our students' skills and equip them with the rapidly
-            changing industry. IEEE MACE SB offers a Hardware Laboratory for the
-            members to develop technical projects. IEEE regularly conducts
-            training programmes, talks, professional awareness sessions,
-            hackathons, industrial visits, debates, quizzes, and workshops. The
-            Student Branch takes the utmost pride in its volunteers, who are
-            very active and ever-ready to take up and solve challenges.{/*  Many of
-            the volunteers are part of teams at various levels. */} We take pride in
-            ensuring to meet the needs of our students in their areas of
-            interest and guide and help them to be better and responsible
+            Here's a condensed version of the text with a slight reduction in
+            word count: --- The IEEE Student Branch MACE (Student Branch Code:
+            32041), established on November 17th, 1988, is one of the largest
+            student branches globally, with over 300 student members. For over
+            35 years, IEEE MACE SB has conducted numerous events to enhance
+            students' skills and prepare them for the rapidly changing industry.
+            The branch offers a Hardware Laboratory for technical project
+            development and regularly conducts training programs, talks,
+            professional awareness sessions, hackathons, industrial visits,
+            debates, quizzes, and workshops. We are committed to meeting
+            students' interests and guiding them to become responsible
             professionals for a better tomorrow.
           </p>
         </div>

@@ -11,7 +11,11 @@ export default function Hero() {
           leadership and community impact."
         </h1>
         <button className="join-us">
-          <div className="join-us-div"><a href="https://www.ieee.org/ " target="_blank">JOIN US</a></div>
+          <div className="join-us-div">
+            <a href="https://www.ieee.org/ " target="_blank">
+              JOIN US
+            </a>
+          </div>
         </button>
       </div>
       <div className="bottom">
@@ -73,9 +77,9 @@ export default function Hero() {
             <p>
               IEEE is a global organization that develops standards to ensure
               the consistency, compatibility, and interoperability of
-              technology. Covering areas like electronics, telecommunications,
-              and computing, IEEE enhances product reliability and fosters
-              innovation across various industries.
+              technology. Covering electronics, telecommunications, and
+              computing, IEEE enhances product reliability and fosters
+              innovation across industries.
             </p>
           </div>
           <div className="hero-card-mob">
