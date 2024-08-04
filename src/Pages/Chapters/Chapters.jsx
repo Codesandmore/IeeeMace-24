@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Chapters.css";
 
 export default function Chapters() {
@@ -100,6 +100,30 @@ export default function Chapters() {
     },
   ];
 
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    const container = containerRef.current;
+    let scrollAmount = 0;
+
+    const scrollInterval = setInterval(() => {
+      if (container) {
+        const cardWidth = container.querySelector(".chapter-card").clientWidth;
+        scrollAmount += cardWidth;
+        if (scrollAmount >= container.scrollWidth) {
+          scrollAmount = 0;
+        }
+        container.scrollTo({
+          left: scrollAmount,
+          behavior: "smooth",
+        });
+      }
+    }, 3000); 
+
+    return () => clearInterval(scrollInterval);
+  }, []);
+
+
   const renderChapterCards = () => {
     return chaptersData.map((chapter, index) => (
       <div className="chapter-card" key={index}>
@@ -137,7 +161,7 @@ export default function Chapters() {
   return (
     <section id="Chapters" className="chapters">
       <h1 className="section-heading">Chapters</h1>
-      <div className="chapter-cards-container">{renderChapterCards()}</div>
+      <div className="chapter-cards-container" ref={containerRef}>{renderChapterCards()}</div>
     </section>
   );
 }
