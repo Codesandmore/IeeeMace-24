@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Chapters.css";
 
 export default function Chapters() {
@@ -13,7 +13,6 @@ export default function Chapters() {
       chapterSecretary: "Ronal Shoey George",
       chapterSite: "https://computer.org",
     },
-
     {
       chapterName: "Robotics and Automation Society",
       chapterImage: "images/Chapters/Cover/ras.jpeg",
@@ -24,7 +23,6 @@ export default function Chapters() {
       chapterSecretary: "Neha Savy",
       chapterSite: "https://ieee-ras.org",
     },
-
     {
       chapterName: "Signal and Processing Society",
       chapterImage: "images/Chapters/Cover/sps.jpeg",
@@ -35,7 +33,6 @@ export default function Chapters() {
       chapterSecretary: "Naveen Prasad",
       chapterSite: "https://signalprocessingsociety.org",
     },
-
     {
       chapterName: "Communication Society",
       chapterImage: "images/Chapters/Cover/com.jpeg",
@@ -46,7 +43,6 @@ export default function Chapters() {
       chapterSecretary: "Shraddha Sasikumar",
       chapterSite: "https://comsoc.org",
     },
-
     {
       chapterName: "Industry Applications Society",
       chapterImage: "images/Chapters/Cover/ias.jpeg",
@@ -57,7 +53,6 @@ export default function Chapters() {
       chapterSecretary: "Ameena R",
       chapterSite: "https://ias.ieee.org",
     },
-
     {
       chapterName: "Power & Energy Society",
       chapterImage: "images/Chapters/Cover/pes.jpeg",
@@ -92,7 +87,7 @@ export default function Chapters() {
       chapterName: "Special Interest Group on Humanitarian Technology",
       chapterImage: "images/Chapters/Cover/sight.jpeg",
       chapterDescription:
-        "The IEEE Special Interest Group on Humanitarian Technology (SIGHT) is a global network of IEEE volunteers partnering with underserved communities to leverage technology for sustainable development, identifying and addressing local problems through technical skills and community collaboration.",
+        "The IEEE Special Interest Group on Humanitarian Technology (SIGHT) is a global network of IEEE volunteers partnering with underserved communities to leverage technology for sustainable development, identifying and addressing local problems through technical skills and community collaboration.",
       chapterLogo: "images/Chapters/Logo/sight_logo1.png",
       chapterChair: "Siyadh M N",
       chapterSecretary: "Sian Lee",
@@ -101,13 +96,14 @@ export default function Chapters() {
   ];
 
   const containerRef = useRef(null);
+  const [isScrolling, setIsScrolling] = useState(true);
 
   useEffect(() => {
     const container = containerRef.current;
     let scrollAmount = 0;
 
     const scrollInterval = setInterval(() => {
-      if (container) {
+      if (isScrolling && container) {
         const cardWidth = container.querySelector(".chapter-card").clientWidth;
         scrollAmount += cardWidth;
         if (scrollAmount >= container.scrollWidth) {
@@ -118,14 +114,16 @@ export default function Chapters() {
           behavior: "smooth",
         });
       }
-    }, 1500); 
+    }, 1500);
 
     return () => clearInterval(scrollInterval);
-  }, []);
+  }, [isScrolling]);
 
+  const handleMouseEnter = () => setIsScrolling(false);
+  const handleMouseLeave = () => setIsScrolling(true);
 
-  const renderChapterCards = () => {
-    return chaptersData.map((chapter, index) => (
+  const renderChapterCards = () =>
+    chaptersData.map((chapter, index) => (
       <div className="chapter-card" key={index}>
         <img
           src={chapter.chapterImage}
@@ -150,18 +148,31 @@ export default function Chapters() {
               <span>Secretary:</span> {chapter.chapterSecretary}
             </p>
             <p>
-            <span>Visit:</span> <a href={chapter.chapterSite} target="_blank" rel="noopener noreferrer">{chapter.chapterSite}</a>
+              <span>Visit:</span>{" "}
+              <a
+                href={chapter.chapterSite}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {chapter.chapterSite}
+              </a>
             </p>
           </div>
         </div>
       </div>
     ));
-  };
 
   return (
     <section id="Chapters" className="chapters">
       <h1 className="section-heading">Chapters</h1>
-      <div className="chapter-cards-container" ref={containerRef}>{renderChapterCards()}</div>
+      <div
+        className="chapter-cards-container"
+        ref={containerRef}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
+        {renderChapterCards()}
+      </div>
     </section>
   );
 }

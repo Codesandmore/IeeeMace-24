@@ -12,6 +12,7 @@
   gap: 15px;
   overflow-x: auto; /* Enable horizontal scrolling */
   padding: 15px;
+  scroll-behavior: smooth;
 }
 
 .chapter-card {

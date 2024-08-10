@@ -305,6 +305,7 @@
     }
     .hero-2-card1{
         grid-template-columns: 100% 0%;
+        direction: ltr;
     }
     .hero-2-card2, .hero-2-card3{
         grid-template-columns: 100% 0%;
