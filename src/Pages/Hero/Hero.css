@@ -115,7 +115,7 @@
 
 .hero .hero-cards .card .back {
     transform: rotateY(180deg);
-    background: #FFC700;
+    background: #CFE6EC;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,7 +144,7 @@
 
 .hero-card-mob:hover {
     animation: expandHeight 0.8s linear forwards;
-    background-color: #ffc700;
+    background-color: #CFE6EC;
     color: black;
 }
 
@@ -305,7 +305,6 @@
     }
     .hero-2-card1{
         grid-template-columns: 100% 0%;
-        direction: ltr;
     }
     .hero-2-card2, .hero-2-card3{
         grid-template-columns: 100% 0%;

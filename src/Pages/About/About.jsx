@@ -11,7 +11,7 @@ const About = () => {
           alt="img1"
           className=" object-cover relative h-full rounded-[35px] shadow-[10px_1px_8px_0px_rgba(0,0,0,0.2)] sm:w-1/2 sm:mx-auto lg:w-full lg:h-[19rem]"
         />
-        <div className="h-full p-5 lg:p-3 bg-[#F7F7F7] rounded-[35px] sm:w-1/2 sm:mx-auto lg:w-auto lg:h-[13rem]  lg:col-span-2 lg:rounded-r-[35px] lg:rounded-l-none">
+        <div className="h-full p-5 lg:p-3 bg-[#CFE6EC] rounded-[35px] sm:w-1/2 sm:mx-auto lg:w-auto lg:h-[13rem]  lg:col-span-2 lg:rounded-r-[35px] lg:rounded-l-none">
           <h4 className="mb-1 text-xl font-bold text-black text-center">
             MACE
           </h4>
@@ -34,7 +34,7 @@ const About = () => {
           alt="img2"
           className="relative h-full rounded-[35px] shadow-[-10px_1px_8px_0px_rgba(0,0,0,0.2)] sm:w-1/2 sm:mx-auto lg:w-full lg:h-[19rem] lg:order-last"
         />
-        <div className="h-full p-5 bg-[#F7F7F7] rounded-[35px] lg:h-[13rem] sm:w-1/2 sm:mx-auto lg:w-auto  lg:p-3 lg:col-span-2 lg:rounded-l-[35px] lg:rounded-r-none">
+        <div className="h-full p-5 bg-[#CFE6EC] rounded-[35px] lg:h-[13rem] sm:w-1/2 sm:mx-auto lg:w-auto  lg:p-3 lg:col-span-2 lg:rounded-l-[35px] lg:rounded-r-none">
           <h4 className="mb-1 text-xl font-bold text-black text-center">
             IEEE MACE SB
           </h4>
