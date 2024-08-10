@@ -92,9 +92,9 @@
 .main_form .send_btn {
     font-size: 17px;
     transition: ease-in all 0.5s;
-    background-color: #FFA800;
+    background-color: #CFE6EC;
     text-transform: uppercase;
-    color: #fff;
+    color: black;
     padding: 25px 0px;
     max-width: 252px;
     width: 100%;
@@ -105,7 +105,7 @@
 
 .main_form .send_btn:hover {
     background-color: #F7F7F7;
-    transition: ease-in all 0.5s;
+    transition: ease-in all 0.25s;
     color: black;
 }
 
