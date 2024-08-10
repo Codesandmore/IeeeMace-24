@@ -6,7 +6,7 @@ const ExecomFull = () => {
   const members = [
     {
       name: "Prof. Neethu Salim",
-      email: "neethusalim@mace.ac.in",
+      email: "neethusalim@ieee.org",
       role: "Branch Counselor",
       image: "/images/execom/neethu.png",
     },
@@ -171,7 +171,7 @@ const ExecomFull = () => {
       members: [
         {
           name: "Prof. Neethu Salim",
-          email: "neethusalim@mace.ac.in",
+          email: "neethusalim@ieee.org",
           role: "Advisor",
           image: "/images/execom/neethu.png",
         },
@@ -240,7 +240,7 @@ const ExecomFull = () => {
       members: [
         {
           name: "Prof. Neethu Salim",
-          email: "neethusalim@mace.ac.in",
+          email: "neethusalim@ieee.org",
           role: "Advisor",
           image: "/images/execom/neethu.png",
         },
@@ -282,11 +282,11 @@ const ExecomFull = () => {
       ],
     },
     {
-      name: "SIGHT Group",
+      name: "SIGHT AFFINITY Group",
       members: [
         {
           name: "Prof. Neethu Salim",
-          email: "neethusalim@mace.ac.in",
+          email: "neethusalim@ieee.org",
           role: "Advisor",
           image: "/images/execom/neethu.png",
         },

@@ -15,15 +15,15 @@ export default function Events() {
       eventImage: "/images/events/techcomm.jpg",
     },
     {
-      eventName: "Sigma",
+      eventName: "SIGMA",
       eventDescription:
-        "The IEEE SPS Student Branch Chapter MACE and the IEEE SPS Kerala Chapter hosted a two-day event for Kerala students to explore signal processing through talks, workshops, and interactions.",
+        "The IEEE SPS Student Branch Chapter MACE and the IEEE SPS Kerala Chapter hosted a two-day event for students in Kerala to explore signal processing through talks, workshops, and interactions.",
       eventImage: "/images/events/sigma.jpg",
     },
     {
       eventName: ".hack();",
       eventDescription:
-        "The annual flagship event of the Student Branch provides resources, encouragement, and mentorship to participants from diverse backgrounds, fostering problem-solving in a dynamic atmosphere.",
+        "The annual flagship event of the Student Branch provides resources, encouragement, and mentorship to participants from diverse backgrounds, fostering problem-solving in a dynamic atmosphere through a 3-day hackathon.",
       eventImage: "/images/events/hack23.jpg",
     },
     {
@@ -41,13 +41,13 @@ export default function Events() {
     {
       eventName: "Stem Expo '22",
       eventDescription:
-        "The IEEE PES Student Branch Chapter MACE organized a STEM Expo, giving pre-university students insights into technical facilities and fostering their passion for engineering.",
+        "The IEEE PES Student Branch Chapter MACE organized STEM Expo-2022, giving pre-university students insights into technical facilities and fostering their passion for engineering.",
       eventImage: "/images/events/pulse2023.jpg",
     },
     {
-      eventName: "SheCanCode23",
+      eventName: "SheCanCode '23",
       eventDescription:
-        "Held under the IEEE Women In Engineering Affinity Group MACE, She Can Code gave female coders a platform to showcase their skills and upskill in solving advanced problems.",
+        "Held under the IEEE Women In Engineering Affinity Group MACE, SheCanCode-2023 gave female coders a platform to showcase their skills and upskill in solving advanced problems.",
       eventImage: "/images/events/she_can_code.jpg",
     },
     {

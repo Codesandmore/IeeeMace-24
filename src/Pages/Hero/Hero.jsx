@@ -59,8 +59,8 @@ export default function Hero() {
               </div>
               <div className="back">
                 <p>
-                  IEEE will be essential to the global technical community and
-                  to technical professionals everywhere, and be universally
+                  IEEE is essential to the global technical community and
+                  to technical professionals everywhere, and is universally
                   recognized for the contributions of technology and of
                   technical professionals in improving global conditions.
                 </p>
@@ -98,8 +98,8 @@ export default function Hero() {
               VISION
             </h4>
             <p>
-              IEEE will be essential to the global technical community and to
-              technical professionals everywhere, and be universally recognized
+              IEEE is essential to the global technical community and to
+              technical professionals everywhere, and is universally recognized
               for the contributions of technology and of technical professionals
               in improving global conditions.
             </p>
