@@ -6,7 +6,7 @@ const Execom = () => {
   const members = [
     {
       name: "Prof. Neethu Salim",
-      email: "neethusalim@mace.ac.in",
+      email: "neethusalim@ieee.org",
       role: "Branch Counselor",
       image: "/images/execom/neethu.png",
     },

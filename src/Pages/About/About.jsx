@@ -23,7 +23,7 @@ const About = () => {
             affiliated to APJ Abdul Kalam Technological University. MACE, as it
             is popularly known, has grown by leaps and bounds since. It now has
             six full-fledged departments apart from the two auxiliary
-            departments of Mathematics, Science, and Humanities.
+            departments of Mathematics, and Science and Humanities.
           </p>
         </div>
       </div>

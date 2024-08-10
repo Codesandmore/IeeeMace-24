@@ -208,7 +208,7 @@
 }
 .hero-2-card1{
     grid-area: vertical;
-    border: 5px solid #FFC700;
+    border: 5px solid #CFE6EC;
     padding: 15px;
     display: grid;
     grid-template-rows: 50% 50%;
@@ -221,7 +221,8 @@
 }
 .hero-2-card2{
     grid-area: horizontal1;
-    border: 5px solid #FFC700;
+    /* border: 5px solid #FFC700; */
+    border: 5px solid #CFE6EC;
     padding: 15px;
     display: grid;
     grid-template-columns: 70% 30%;
@@ -234,7 +235,8 @@
 }
 .hero-2-card3{
     grid-area: horizontal2;
-    border: 5px solid #FFC700;
+   /*  border: 5px solid #FFC700; */
+    border: 5px solid #CFE6EC;
     padding: 15px;
     display: grid;
     grid-template-columns: 70% 30%;
