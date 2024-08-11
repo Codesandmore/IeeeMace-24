@@ -24,7 +24,7 @@ export default function Chapters() {
       chapterSite: "https://ieee-ras.org",
     },
     {
-      chapterName: "Signal and Processing Society",
+      chapterName: "Signal Processing Society",
       chapterImage: "images/Chapters/Cover/sps.jpeg",
       chapterDescription:
         "The IEEE Signal Processing Society (SPS) leads advancements in signal processing and machine learning. It promotes global research, education, and collaboration among engineers and scientists, catalyzing innovation across sectors such as communications and healthcare.",
@@ -34,7 +34,7 @@ export default function Chapters() {
       chapterSite: "https://signalprocessingsociety.org",
     },
     {
-      chapterName: "Communication Society",
+      chapterName: "Communications Society",
       chapterImage: "images/Chapters/Cover/com.jpeg",
       chapterDescription:
         "The IEEE Communications Society facilitates technological innovation and global information exchange among technical professionals. It supports member development through educational resources and forums for technical discourse in academia, industry, and public sectors.",
@@ -64,14 +64,17 @@ export default function Chapters() {
       chapterSite: "https://ieee-pes.org",
     },
     {
-      chapterName: "Power Electronics Society",
+      chapterName: "IE/PELS Joint Chapter",
       chapterImage: "images/Chapters/Cover/pels.jpeg",
       chapterDescription:
         "The IEEE Power Electronics Society (PELS) advances power electronics by leveraging electronic components, circuit theory, and analytical tools for efficient power conversion. The Industry Electronics Society (IES) enhances industrial processes through the application of electronics, controls, communications, and computational intelligence.",
       chapterLogo: "images/Chapters/Logo/pels_logo1.png",
       chapterChair: "Anu Anil",
       chapterSecretary: "Jyothika Vinod",
-      chapterSite: "https://ieee-pels.org",
+      chapterSite: [
+        { url: "https://ieee-pels.org", label: "https://ieee-pels.org," },
+        { url: "https://ieee-ies.org", label: "https://ieee-ies.org" }
+      ],
     },
     {
       chapterName: "Women in Engineering",
@@ -79,7 +82,7 @@ export default function Chapters() {
       chapterDescription:
         "IEEE Women in Engineering (WIE) is a global network committed to promoting women in engineering and science, inspiring girls to pursue technical careers, and fostering a diverse community to innovate for the benefit of humanity.",
       chapterLogo: "images/Chapters/Logo/wie_logo1.png",
-      chapterChair: "Nandana M J",
+      chapterChair: "Nandhana M J",
       chapterSecretary: "Nandana Jolly",
       chapterSite: "https://wie.ieee.org",
     },
@@ -149,13 +152,27 @@ export default function Chapters() {
             </p>
             <p>
               <span>Visit:</span>{" "}
-              <a
-                href={chapter.chapterSite}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {chapter.chapterSite}
-              </a>
+              {Array.isArray(chapter.chapterSite) ? (
+                chapter.chapterSite.map((site, idx) => (
+                  <a
+                    key={idx}
+                    href={site.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {site.label}
+                    <br></br>
+                  </a>
+                ))
+              ) : (
+                <a
+                  href={chapter.chapterSite}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {chapter.chapterSite}
+                </a>
+              )}
             </p>
           </div>
         </div>

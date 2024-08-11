@@ -64,7 +64,7 @@ const Footer = () => {
                 Kothamangalam, Kerala-686666, India
                 <br />
                 <br />
-                <strong>Phone:</strong> +91 9895235183
+                <strong>Phone:</strong> +91 8921931121
                 <br />
                 <strong>Email:</strong> ieeemacesbofficial@gmail.com
                 <br />

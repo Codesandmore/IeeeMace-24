@@ -39,15 +39,15 @@ export default function Events() {
       eventImage: "/images/events/sparc2023.jpg",
     },
     {
-      eventName: "Stem Expo '22",
+      eventName: "Stem Expo",
       eventDescription:
-        "The IEEE PES Student Branch Chapter MACE organized STEM Expo-2022, giving pre-university students insights into technical facilities and fostering their passion for engineering.",
+        "The IEEE PES Student Branch Chapter MACE organized a STEM Expo, giving pre-university students insights into technical facilities and fostering their passion for engineering.",
       eventImage: "/images/events/pulse2023.jpg",
     },
     {
-      eventName: "SheCanCode '23",
+      eventName: "SheCanCode",
       eventDescription:
-        "Held under the IEEE Women In Engineering Affinity Group MACE, SheCanCode-2023 gave female coders a platform to showcase their skills and upskill in solving advanced problems.",
+        "Held under the IEEE Women In Engineering Affinity Group MACE, SheCanCode gave female coders a platform to showcase their skills and upskill in solving advanced problems.",
       eventImage: "/images/events/she_can_code.jpg",
     },
     {

@@ -122,16 +122,17 @@
 
 #load {
     display: block;
+    color: white;
 }
 
 #success {
     display: block;
-    color: #fecd6a;
+    color: #CFE6EC;
 }
 
 #error {
     display: block;
-    color: red;
+    color: white;
 }
 
 @media screen and (max-width: 450px) {
