@@ -330,7 +330,7 @@ const ExecomFull = () => {
     }, [member.role]);
 
     return (
-      <div className="execom-card-container">
+      <div className="execom-card-container" data-aos="zoom-in">
         <div ref={roleRef} className="role">
           {member.role}
         </div>

@@ -5,7 +5,10 @@ const About = () => {
     <section id="About" className="my-16 max-w-7xl mx-auto">
       <h1 className="section-heading ">About Us</h1>
 
-      <div className="mt-10 grid gap-y-4 lg:grid-cols-3 lg:items-center lg:mt-0">
+      <div
+        className="mt-10 grid gap-y-4 lg:grid-cols-3 lg:items-center lg:mt-0"
+        data-aos="zoom-in-up"
+      >
         <img
           src="/images/About/MACE.jpg"
           alt="img1"
@@ -28,7 +31,10 @@ const About = () => {
         </div>
       </div>
 
-      <div className="mt-20 grid gap-y-4 lg:grid-cols-3 lg:items-center lg:mt-0">
+      <div
+        className="mt-20 grid gap-y-4 lg:grid-cols-3 lg:items-center lg:mt-0"
+        data-aos="zoom-in-up"
+      >
         <img
           src="/images/About/IEEE_MACE_SB.jpg"
           alt="img2"
@@ -39,12 +45,12 @@ const About = () => {
             IEEE MACE SB
           </h4>
           <p className="text-sm text-black font-semibold text-justify">
-            The IEEE Student Branch MACE (Student Branch Code:
-            32041), established on November 17th, 1988, is one of the largest
-            student branches globally, with over 300 student members. For over
-            35 years, IEEE MACE SB has conducted numerous events to enhance
-            students' skills and prepare them for the rapidly changing industry.
-            The branch offers a Hardware Laboratory for technical project
+            The IEEE Student Branch MACE (Student Branch Code: 32041),
+            established on November 17th, 1988, is one of the largest student
+            branches globally, with over 300 student members. For over 35 years,
+            IEEE MACE SB has conducted numerous events to enhance students'
+            skills and prepare them for the rapidly changing industry. The
+            branch offers a Hardware Laboratory for technical project
             development and regularly conducts training programs, talks,
             professional awareness sessions, hackathons, industrial visits,
             debates, quizzes, and workshops. We are committed to meeting

@@ -4,7 +4,7 @@ export default function Hero2() {
     <section id="WhyIEEE" className="section hero-2">
       <h1 className="section-heading hero-2-heading">WHY IEEE?</h1>
       <div className="hero-2-cards">
-        <div className="hero-2-card1">
+        <div className="hero-2-card1" data-aos="fade-right">
           <div className="hero-2-img"></div>
           <div>
             <h4 className="hero-2-card-heading">
@@ -20,7 +20,7 @@ export default function Hero2() {
             </p>
           </div>
         </div>
-        <div className="hero-2-card2">
+        <div className="hero-2-card2" data-aos="fade-down-left">
           <div>
             <h4 className="hero-2-card-heading">IEEE eLearning Library</h4>
             <p className="hero-2-card-para">
@@ -31,7 +31,7 @@ export default function Hero2() {
           </div>
           <div className="hero-2-img"></div>
         </div>
-        <div className="hero-2-card3">
+        <div className="hero-2-card3" data-aos="fade-up-left">
           <div>
             <h4 className="hero-2-card-heading">IEEE Standards</h4>
             <p className="hero-2-card-para">

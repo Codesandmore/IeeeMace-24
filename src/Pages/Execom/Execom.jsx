@@ -44,7 +44,7 @@ const Execom = () => {
 
   const ExecomCard = ({ member, style }) => {
     return (
-      <div className="execom-card-container" style={style}>
+      <div className="execom-card-container" style={style} data-aos="fade-up">
         <div className="role">{member.role}</div>
         <div className="execom-card">
           <div className="image-container">

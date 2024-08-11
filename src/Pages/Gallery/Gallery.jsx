@@ -50,7 +50,7 @@ export default function Gallery() {
       <h1 className="section-heading">Gallery</h1>
       <div className="grid-container">
         {gallery.map((item, index) => (
-          <div key={index}>
+          <div key={index} data-aos="zoom-in">
             <img
               className={`grid-item grid-item-${index + 1}`}
               src={item.imagePath}

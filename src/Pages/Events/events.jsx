@@ -63,7 +63,7 @@ export default function Events() {
       <h1 className="section-heading">Major Events</h1>
       <div className="event-container">
         {eventList.map((events, index) => (
-          <div className="event-card" key={index}>
+          <div className="event-card" key={index} data-aos="zoom-out">
             <div className="event-image">
               <img src={events.eventImage} alt={events.eventName} />
             </div>
