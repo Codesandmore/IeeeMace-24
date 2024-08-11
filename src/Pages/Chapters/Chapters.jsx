@@ -105,7 +105,7 @@ export default function Chapters() {
     const container = containerRef.current;
     let scrollAmount = 0;
 
-    const scrollInterval = setInterval(() => {
+    /* const scrollInterval = setInterval(() => {
       if (isScrolling && container) {
         const cardWidth = container.querySelector(".chapter-card").clientWidth;
         scrollAmount += cardWidth;
@@ -117,9 +117,9 @@ export default function Chapters() {
           behavior: "smooth",
         });
       }
-    }, 1500);
+    }, 1500); */
 
-    return () => clearInterval(scrollInterval);
+    return () => {/* clearInterval(scrollInterval); */};
   }, [isScrolling]);
 
   const handleMouseEnter = () => setIsScrolling(false);
