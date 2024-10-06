@@ -1,16 +1,26 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import "./navbar.css";
 import { FaBars } from "react-icons/fa";
 
 export default function Navbar() {
   const [active, setActive] = useState(false);
+  const [logoIndex, setLogoIndex] = useState(0);
 
+  const logos = ["images/mace35_1.png", "images/mace35_2.png"]; 
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setLogoIndex((prevIndex) => (prevIndex === 0 ? 1 : 0)); 
+    }, 2000);
+
+    return () => clearInterval(interval);
+  }, []);
   return (
     <>
       <nav className="navbar">
         <div className="navBar">
-          <div className="logo">
-            <img src="images/mace_his.png" alt="Mace Logo" />
+        <div className="logo">
+            <img src={logos[logoIndex]} alt="Mace Logo" />
           </div>
           <FaBars
             className="bars"

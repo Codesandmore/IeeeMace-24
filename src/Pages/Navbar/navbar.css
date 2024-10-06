@@ -22,8 +22,9 @@
 }
 .navbar .logo{
     height: 100%;
-    /* width: 250px; */
-    width: 90px;
+    width: 200px;
+   /*  width: 90px; */
+   padding-top: 10px;
     display: flex;
     align-items: center;
     justify-content: left;
@@ -91,7 +92,7 @@
         transition: all 0.3s linear;
     }
     .navbar .logo{
-        width: 80px;
+        width: 160px;
     }
     .nav-bar-active{
         top: 10dvh;
