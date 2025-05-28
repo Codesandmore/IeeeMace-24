@@ -120,7 +120,7 @@ const ExecomFull = () => {
           name: "Neha Savy",
           email: "nehasavy22@ieee.org",
           role: "Chair",
-          image: "/images/execom/Neha.png",
+          image: "/images/execom/neha.png",
         },
         {
           name: "Madhav K Anil",

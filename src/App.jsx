@@ -3,6 +3,7 @@ import "./App.css";
 import Chapters from "./Pages/Chapters/Chapters";
 import About from "./Pages/About/About";
 import Events from "./Pages/Events/events";
+import EventDetail from "./Pages/Events/EventDetail";
 import Execom from "./Pages/Execom/Execom";
 import ExecomFull from "./Pages/Execom/ExecomFull";
 import Gallery from "./Pages/Gallery/Gallery";
@@ -38,6 +39,7 @@ function App() {
           />
           <Route path="/execom" element={<ExecomFull />} />
           <Route path="/webteam" element={<WebTeam />} />
+          <Route path="/event/:eventName" element={<EventDetail />} />
         </Routes>
       </Router>
     </div>
