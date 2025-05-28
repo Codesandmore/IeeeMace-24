@@ -150,10 +150,11 @@ const Footer = () => {
       </div>
       <div className="claim">
         <p>
-          Designed and Developed by{" "}
+          Designed and Developed by IEEE MACE SB WebTeam 2024
+          {/*Designed and Developed by{" "}
           <Link to="/webteam">
             <span className="ieee-footer">IEEE MACE SB WebTeam 2024</span>
-          </Link>
+          </Link>*/}
         </p>
         <p>
           <i className="fa">
